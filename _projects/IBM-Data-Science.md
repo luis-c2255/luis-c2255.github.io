@@ -83,7 +83,7 @@ Early Falcon 9 versions carried significantly lighter payloads compared to Block
 
 ## Interactive Visualizations
 
-<iframe src="../assets/images/projects/all_stations.html" height="500" width="500"></iframe>
+{% include_relative assets/maps/map_snippet.html %}
 
 
 ## Results & Impact
@@ -107,3 +107,4 @@ Early Falcon 9 versions carried significantly lighter payloads compared to Block
 
 
 **Want to learn more about this project?** Feel free to [reach out](/contact) or check out the [code on GitHub](https://github.com/luis-c2255/Project_Capstone_IBM_SpaceX).
+
