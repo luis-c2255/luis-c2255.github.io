@@ -82,29 +82,117 @@ NASA is a major contributor to SpaceX's early manifest, especially ISS resupply 
 Early Falcon 9 versions carried significantly lighter payloads compared to Block 5.
 
 ## Interactive Visualizations
+**Geospatial Analysis with Folium**
 
-{% include_relative assets/maps/map_snippet.html %}
+Using Folium, created interactive maps to visualize: 
+1. **Launch Site Locations**
+  - CCAFS SLC-40 (Cape Canaveral Space Force Station, Space Launch Complex 40, Florida, United States)
+  - KSC LC-39A (Kennedy Space Center Launch Complex 39A, Florida, United States)
+  - VAFB SLC-4E (Vandenberg AFB Space Launch Complex 4E, Lompoc, United States)
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/foli.svg?raw=true" alt="Map" width="65%" height="65%">
+
+2. **Success vs Failure Markers**
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/folio.svg?raw=true" alt="Map" width="65%" height="65%">
+
+**Dashboard**
+Used Plotly Dash to create a simple dashboard to visualize the Launch Success Count for all sites and Launch Site with Highest Launch Success Ratio.
+
+Check the dashboard [here](https://lmode2255.pythonanywhere.com/)
+
+## Predictive Analysis
+**Machine Learning Overview**
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/ml%20implement.svg?raw=true" alt="Photo" width="65%" height="65%">
+
+**Model Comparison (GridSearchCV-tuned)**
+Insights
+- All models generalize similarly on test data (0.8333 accuracy).
+- Decision Tree achieves the highest training accuracy, indicating it captures more complex patterns.
+- Logistic Regression provides a strong baseline with minimal complexity.
+- SVM performs well despite using a non-linear kernel (sigmoid), showing non-linear relationships in the data.
+
+**Why this matter**
+Space Y can rely on multiple model types to predict landing success - the signal is strong and consistent across algorithms.
+
+**Confusion Matrices & Interpretation**
+
+**Confusion Matrix - Logistic Regression**
+
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/decision%20tree.svg?raw=true" alt="Photo" width="30%" height="30%">
+
+**Confusion Matrix - SVM**
+
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/logistic%20regression.svg?raw=true" alt="Photo" width="30%" height="30%">
+
+**Confusion Matrix - Decision Tree**
+
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/SVM.svg?raw=true" alt="Photo" width="30%" height="30%">
+
+- Models correctly classify most “landed” outcomes.
+- False negatives (predicting failure when it landed) are low — important for operational planning.
+- False positives (predicting landing when it fails) are slightly higher, reflecting the difficulty of predicting borderline missions.
+
+**Why this matters**
+
+Confusion matrices reveal how the model makes mistakes — critical for risk‑sensitive decisions like booster recovery.
 
 
-## Results & Impact
+## Key Insights
 
+**1. Launch Pricing Is Predictable**
 
+Payload mass and orbit type explain most of the variance in launch price. → Space Y can benchmark pricing with confidence.
 
-## Key Learnings
+**2. Reusability Is Systematic**
 
+Landing success is predictable with ~89% accuracy. → Space Y can design missions to maximize reuse probability.
 
+**3. Infrastructure Drives Reuse**
 
-## Future Enhancements
+Landing pad availability and launch site strongly influence outcomes. → Early investment in landing infrastructure is essential.
 
+**4. Block 5‑style Boosters Are Critical**
+
+Booster version is a top predictor of success. → Space Y should prioritize a robust, reusable booster design.
+
+**5. Operational Maturity Matters**
+
+Success rates improve dramatically after 2015. → Space Y should expect a learning curve but rapid improvement.
+
+## Limitations & Future Work
+
+**Limitations**
+
+- No access to real‑time telemetry (fuel margins, thrust, weather).
+- Some scraped fields contain missing or inconsistent values.
+- Landing outcome labels simplified into binary classes.
+- Payload mass sometimes missing for classified missions.
+- No cost data directly available — price estimation is inferred.
+
+**Future Work**
+
+- Integrate weather and wind‑shear data for better landing predictions.
+- Add booster age, refurbishment cycles, and flight history.
+- Incorporate real‑time telemetry if available.
+- Expand dataset to include Falcon Heavy and Starship.
+- Build a full pricing model using regression + cost modeling.
+- Deploy the ML model as an API for Space Y’s operations team.
 
 
 ## Screenshots
 
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/landing_outcom.svg?raw=true" alt="Photo" width="65%" height="65%">
 
 
----
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/orbit_freq.svg?raw=true" alt="Photo" width="65%" height="65%">
+
+
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/total_per_site.svg?raw=true" alt="Photo" width="65%" height="65%">
+
+
+<img src="https://github.com/luis-c2255/luis-c2255.github.io/blob/changes/assets/images/projects/yearly.svg?raw=true" alt="Photo" width="65%" height="65%">
 
 
 
 **Want to learn more about this project?** Feel free to [reach out](/contact) or check out the [code on GitHub](https://github.com/luis-c2255/Project_Capstone_IBM_SpaceX).
+
 
