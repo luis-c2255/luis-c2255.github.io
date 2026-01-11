@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eb4b9cfe3a8c71cb4d08416b6fdef669 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eb4b9cfe3a8c71cb4d08416b6fdef669" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eb4b9cfe3a8c71cb4d08416b6fdef669 = L.map(
+                "map_eb4b9cfe3a8c71cb4d08416b6fdef669",
+                {
+                    center: [41.88660992610266, -87.63600318267368],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cfc272afdcda82a38f20f96b784439c5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cfc272afdcda82a38f20f96b784439c5.addTo(map_eb4b9cfe3a8c71cb4d08416b6fdef669);
+        
+    
+            var marker_bfff693c0bae5d878d256ce7890ccf7a = L.marker(
+                [41.88939, -87.63855],
+                {
+}
+            ).addTo(map_eb4b9cfe3a8c71cb4d08416b6fdef669);
+        
+    
+            var beautify_icon_81c519316464a7c321a234574fa034b2 = new L.BeautifyIcon.icon(
+                {
+  "icon": "bicycle",
+  "borderWidth": 3,
+  "borderColor": "#000",
+  "textColor": "#ffffff",
+  "backgroundColor": "#4F5D2F",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "iconShape": "marker",
+  "innerIconStyle": "font-size:13px;padding-top:1px;",
+}
+            )
+            marker_bfff693c0bae5d878d256ce7890ccf7a.setIcon(beautify_icon_81c519316464a7c321a234574fa034b2);
+        
+    
+            marker_bfff693c0bae5d878d256ce7890ccf7a.bindTooltip(
+                `<div>
+                     Kingsbury St & Kinzie St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bfff693c0bae5d878d256ce7890ccf7a.setIcon(beautify_icon_81c519316464a7c321a234574fa034b2);
+            
+    
+            var marker_db4bb761435849ca06b91b5a91820e8e = L.marker(
+                [41.88286, -87.64114],
+                {
+}
+            ).addTo(map_eb4b9cfe3a8c71cb4d08416b6fdef669);
+        
+    
+            var beautify_icon_a229ab672ce1d1c3f337becdc862e5a7 = new L.BeautifyIcon.icon(
+                {
+  "icon": "bicycle",
+  "borderWidth": 3,
+  "borderColor": "#000",
+  "textColor": "#ffffff",
+  "backgroundColor": "#4F5D2F",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "iconShape": "marker",
+  "innerIconStyle": "font-size:13px;padding-top:1px;",
+}
+            )
+            marker_db4bb761435849ca06b91b5a91820e8e.setIcon(beautify_icon_a229ab672ce1d1c3f337becdc862e5a7);
+        
+    
+            marker_db4bb761435849ca06b91b5a91820e8e.bindTooltip(
+                `<div>
+                     Clinton St & Madison St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_db4bb761435849ca06b91b5a91820e8e.setIcon(beautify_icon_a229ab672ce1d1c3f337becdc862e5a7);
+            
+    
+            var marker_34d1d2a253144ca31964ed2338d97e94 = L.marker(
+                [41.78521, -87.60105],
+                {
+}
+            ).addTo(map_eb4b9cfe3a8c71cb4d08416b6fdef669);
+        
+    
+            var beautify_icon_3266f9fd345a0986c73ef7e6069d50da = new L.BeautifyIcon.icon(
+                {
+  "icon": "bicycle",
+  "borderWidth": 3,
+  "borderColor": "#000",
+  "textColor": "#ffffff",
+  "backgroundColor": "#4F5D2F",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "iconShape": "marker",
+  "innerIconStyle": "font-size:13px;padding-top:1px;",
+}
+            )
+            marker_34d1d2a253144ca31964ed2338d97e94.setIcon(beautify_icon_3266f9fd345a0986c73ef7e6069d50da);
+        
+    
+            marker_34d1d2a253144ca31964ed2338d97e94.bindTooltip(
+                `<div>
+                     Ellis Ave & 60th St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_34d1d2a253144ca31964ed2338d97e94.setIcon(beautify_icon_3266f9fd345a0986c73ef7e6069d50da);
+            
+    
+            var marker_9360fc70c117d721773b74ad19166b87 = L.marker(
+                [41.88353, -87.64116],
+                {
+}
+            ).addTo(map_eb4b9cfe3a8c71cb4d08416b6fdef669);
+        
+    
+            var beautify_icon_d8dd25c57d20c3f1ee424396b7cfc255 = new L.BeautifyIcon.icon(
+                {
+  "icon": "bicycle",
+  "borderWidth": 3,
+  "borderColor": "#000",
+  "textColor": "#ffffff",
+  "backgroundColor": "#4F5D2F",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "iconShape": "marker",
+  "innerIconStyle": "font-size:13px;padding-top:1px;",
+}
+            )
+            marker_9360fc70c117d721773b74ad19166b87.setIcon(beautify_icon_d8dd25c57d20c3f1ee424396b7cfc255);
+        
+    
+            marker_9360fc70c117d721773b74ad19166b87.bindTooltip(
+                `<div>
+                     Clinton St & Washington Blvd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9360fc70c117d721773b74ad19166b87.setIcon(beautify_icon_d8dd25c57d20c3f1ee424396b7cfc255);
+            
+    
+            var marker_a28e18472d6c859dc6fe6d34c5837e6b = L.marker(
+                [41.88438, -87.62959],
+                {
+}
+            ).addTo(map_eb4b9cfe3a8c71cb4d08416b6fdef669);
+        
+    
+            var beautify_icon_5824c10d8879b74b820df0fdee4d3a20 = new L.BeautifyIcon.icon(
+                {
+  "icon": "bicycle",
+  "borderWidth": 3,
+  "borderColor": "#000",
+  "textColor": "#ffffff",
+  "backgroundColor": "#4F5D2F",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "iconShape": "marker",
+  "innerIconStyle": "font-size:13px;padding-top:1px;",
+}
+            )
+            marker_a28e18472d6c859dc6fe6d34c5837e6b.setIcon(beautify_icon_5824c10d8879b74b820df0fdee4d3a20);
+        
+    
+            marker_a28e18472d6c859dc6fe6d34c5837e6b.bindTooltip(
+                `<div>
+                     Daley Center Plaza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a28e18472d6c859dc6fe6d34c5837e6b.setIcon(beautify_icon_5824c10d8879b74b820df0fdee4d3a20);
+            
+    
+            var marker_04a9e23731272d648e014e1710367a97 = L.marker(
+                [41.79164, -87.59975],
+                {
+}
+            ).addTo(map_eb4b9cfe3a8c71cb4d08416b6fdef669);
+        
+    
+            var beautify_icon_397772ae50e6558c430ba87bf3158a2e = new L.BeautifyIcon.icon(
+                {
+  "icon": "bicycle",
+  "borderWidth": 3,
+  "borderColor": "#000",
+  "textColor": "#ffffff",
+  "backgroundColor": "#4F5D2F",
+  "innerIconStyle": "",
+  "spin": false,
+  "isAlphaNumericIcon": false,
+  "iconShape": "marker",
+  "innerIconStyle": "font-size:13px;padding-top:1px;",
+}
+            )
+            marker_04a9e23731272d648e014e1710367a97.setIcon(beautify_icon_397772ae50e6558c430ba87bf3158a2e);
+        
+    
+            marker_04a9e23731272d648e014e1710367a97.bindTooltip(
+                `<div>
+                     University Ave & 57th St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_04a9e23731272d648e014e1710367a97.setIcon(beautify_icon_397772ae50e6558c430ba87bf3158a2e);
+            
+    
+            tile_layer_cfc272afdcda82a38f20f96b784439c5.addTo(map_eb4b9cfe3a8c71cb4d08416b6fdef669);
+        
+    
+                marker_bfff693c0bae5d878d256ce7890ccf7a.setIcon(beautify_icon_81c519316464a7c321a234574fa034b2);
+            
+    
+                marker_db4bb761435849ca06b91b5a91820e8e.setIcon(beautify_icon_a229ab672ce1d1c3f337becdc862e5a7);
+            
+    
+                marker_34d1d2a253144ca31964ed2338d97e94.setIcon(beautify_icon_3266f9fd345a0986c73ef7e6069d50da);
+            
+    
+                marker_9360fc70c117d721773b74ad19166b87.setIcon(beautify_icon_d8dd25c57d20c3f1ee424396b7cfc255);
+            
+    
+                marker_a28e18472d6c859dc6fe6d34c5837e6b.setIcon(beautify_icon_5824c10d8879b74b820df0fdee4d3a20);
+            
+    
+                marker_04a9e23731272d648e014e1710367a97.setIcon(beautify_icon_397772ae50e6558c430ba87bf3158a2e);
+            
+</script>
+</html>
