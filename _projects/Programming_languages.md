@@ -4,7 +4,7 @@ title: "EDA Programming Languages"
 description: "Exploratory Data Analysis of Programming Languages"
 date: 2026-01-16
 category: "data-analysis"
-image: "assets/images/projects/programming_languages/images/COVER.png"
+image: "assets/images/projects/programming_languages/images/code.jpg"
 technologies:
   - Python
   - Jupyter Lab
