@@ -4,7 +4,7 @@ title: "EDA Programming Languages"
 description: "Exploratory Data Analysis of Programming Languages"
 date: 2026-01-16
 category: "data-analysis"
-image: "assets/images/projects/programming_languages/images/COVER.png"
+image: "assets/images/projects/programming_languages/images/code.jpg"
 technologies:
   - Python
   - Jupyter Lab
@@ -14,7 +14,7 @@ github: "https://github.com/luis-c2255/EDA_programming_languages/tree/main"
 
 ## Project Overview
 
-![quote](assets/images/projects/programming_languages/images/quote.svg)
+![quote](/assets/images/projects/programming_languages/images/quote.svg)
 
 Programming languages are more than tools — they are expressions of ideas, philosophies, and cultural influences that evolve over decades. This project explores that evolution by analyzing 100 programming languages across multiple dimensions: paradigms, typing systems, influence relationships, geographic origins, and historical context. Through clustering, network analysis, and visual exploration, the project uncovers the hidden structure of the programming‑language ecosystem.
 
@@ -171,7 +171,7 @@ plt.xlabel("Year")
 plt.ylabel("Count")
 plt.show()
 ```
-![chart1](assets/images/projects/programming_languages/charts/distribution_programming_lang_years.png)
+![chart1](/assets/images/projects/programming_languages/charts/distribution_programming_lang_years.png)
 
 **4.2 Paradigm Distribution**
 ```python
@@ -183,7 +183,7 @@ plt.ylabel("Count")
 plt.xticks(rotation=45)
 plt.show()
 ```
-![chart2](assets/images/projects/programming_languages/charts/primary_paradigm_distribution.png)
+![chart2](/assets/images/projects/programming_languages/charts/primary_paradigm_distribution.png)
 
 **4.3 Typing Discipline**
 ```python
@@ -202,7 +202,7 @@ ax[1].set_ylabel("Count")
 plt.tight_layout()
 plt.show()
 ```
-![chart3](assets/images/projects/programming_languages/charts/typing_type_strength.png)
+![chart3](/assets/images/projects/programming_languages/charts/typing_type_strength.png)
 
 **4.4 Origin Type**
 ```python
@@ -214,7 +214,7 @@ plt.ylabel("Count")
 plt.xticks(rotation=45)
 plt.show()
 ```
-![chart4](assets/images/projects/programming_languages/charts/origin_type_distribution.png)
+![chart4](/assets/images/projects/programming_languages/charts/origin_type_distribution.png)
 
 **4.5 Country**
 ```python
@@ -226,7 +226,7 @@ plt.ylabel("Count")
 plt.xticks(rotation=45)
 plt.show()
 ```
-![chart5](assets/images/projects/programming_languages/charts/country_origin_distribution.png)
+![chart5](/assets/images/projects/programming_languages/charts/country_origin_distribution.png)
 
 **4.6 Popularity**
 ```python
@@ -237,7 +237,7 @@ plt.xlabel("Popularity Score")
 plt.ylabel("Count")
 plt.show()
 ```
-![chart6](assets/images/projects/programming_languages/charts/popularity_distribution.png)
+![chart6](/assets/images/projects/programming_languages/charts/popularity_distribution.png)
 
 **4.7 Age Distribution**
 ```python
@@ -248,7 +248,7 @@ plt.xlabel("Age (Years)")
 plt.ylabel("Count")
 plt.show()
 ```
-![chart7](assets/images/projects/programming_languages/charts/age_language_distribution.png)
+![chart7](/assets/images/projects/programming_languages/charts/age_language_distribution.png)
 
 ## 5. BIVARIATE ANALYSIS
 
@@ -263,7 +263,7 @@ plt.xticks(rotation=45)
 plt.legend(title="Paradigm", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.show()
 ```
-![chart8](assets/images/projects/programming_languages/charts/paradigm_distribution_across_decades.png)
+![chart8](/assets/images/projects/programming_languages/charts/paradigm_distribution_across_decades.png)
 
 **5.2 Typing Time vs Decade**
 ```python
@@ -276,7 +276,7 @@ plt.xticks(rotation=45)
 plt.legend(title="Typing Time", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.show()
 ```
-![chart9](assets/images/projects/programming_languages/charts/typing_time_decades.png)
+![chart9](/assets/images/projects/programming_languages/charts/typing_time_decades.png)
 
 **5.3 Origin Type vs Paradigm**
 ```python
@@ -289,7 +289,7 @@ plt.xticks(rotation=45)
 plt.legend(title="Origin Type", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.show()
 ```
-![chart10](assets/images/projects/programming_languages/charts/origin_type_paradigm.png)
+![chart10](/assets/images/projects/programming_languages/charts/origin_type_paradigm.png)
 
 **5.4 Popularity vs Age**
 ```python
@@ -300,7 +300,7 @@ plt.xlabel("Age (Years)")
 plt.ylabel("Popularity Score")
 plt.show()
 ```
-![chart11](assets/images/projects/programming_languages/charts/popularity_vs_age.png)
+![chart11](/assets/images/projects/programming_languages/charts/popularity_vs_age.png)
 
 **5.5 Popularity vs Paradigm**
 ```python
@@ -312,7 +312,7 @@ plt.ylabel("Popularity Score")
 plt.xticks(rotation=45)
 plt.show()
 ```
-![chart12](assets/images/projects/programming_languages/charts/popularity_distribution_paradigm.png)
+![chart12](/assets/images/projects/programming_languages/charts/popularity_distribution_paradigm.png)
 
 **5.6 Country vs Paradigm (Top Countries Only)**
 ```python
@@ -328,7 +328,7 @@ plt.xticks(rotation=45)
 plt.legend(title="Paradigm", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.show()
 ```
-![chart13](assets/images/projects/programming_languages/charts/paradigm_distribution_country.png)
+![chart13](/assets/images/projects/programming_languages/charts/paradigm_distribution_country.png)
 
 ## 6. MULTIVARIATE ANALYSIS
 
@@ -400,7 +400,7 @@ plt.show()
 
 print("Explained variance ratio:", pca.explained_variance_ratio_)
 ```
-![chart14](assets/images/projects/programming_languages/charts/pca_projection_languages.png)
+![chart14](/assets/images/projects/programming_languages/charts/pca_projection_languages.png)
 
 **6.4 K-Means Clustering**
 ```python
@@ -423,7 +423,7 @@ plt.ylabel("PCA 2")
 plt.legend(title="Cluster", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.show()
 ```
-![chart15](assets/images/projects/programming_languages/charts/k_means_clusters_pca.png)
+![chart15](/assets/images/projects/programming_languages/charts/k_means_clusters_pca.png)
 
 **6.6 Cluster Profiling**
 
@@ -450,7 +450,7 @@ plt.title("Paradigm Distribution by Cluster")
 plt.xticks(rotation=45)
 plt.show()
 ```
-![chart15](assets/images/projects/programming_languages/charts/paradigm_distrib_cluster.png)
+![chart15](/assets/images/projects/programming_languages/charts/paradigm_distrib_cluster.png)
 
 **6.8 Typing Category by Cluster**
 
@@ -461,7 +461,7 @@ plt.title("Typing Category by Cluster")
 plt.xticks(rotation=45)
 plt.show()
 ```
-![chart16](assets/images/projects/programming_languages/charts/Typing_Category_by_Cluster.png)
+![chart16](/assets/images/projects/programming_languages/charts/Typing_Category_by_Cluster.png)
 
 **6.9 Origin Type by Cluster**
 ```python
@@ -471,7 +471,7 @@ plt.title("Origin Type by Cluster")
 plt.xticks(rotation=45)
 plt.show()
 ```
-![chart16](assets/images/projects/programming_languages/charts/Origin_Type_by_Cluster.png)
+![chart16](/assets/images/projects/programming_languages/charts/Origin_Type_by_Cluster.png)
 
 **6.10 Continent Distribution by Cluster**
 ```python
@@ -481,7 +481,7 @@ plt.title("Continent Distribution by Cluster")
 plt.xticks(rotation=45)
 plt.show()
 ```
-![chart17](assets/images/projects/programming_languages/charts/Continent_Distribution_by_Cluster.png)
+![chart17](/assets/images/projects/programming_languages/charts/Continent_Distribution_by_Cluster.png)
 
 ### Cluster 1 - Enterprise OOP (Static Strong)
 
@@ -494,7 +494,7 @@ plt.show()
 
 This is the 'industry backbone' cluster.
 
-![icon1](assets/images/projects/programming_languages/icons/devicon-java.svg) ![icon3](assets/images/projects/programming_languages/icons/skill-icons-cs.svg) ![icon4](assets/images/projects/programming_languages/icons/skill-icons-kotlin-dark.svg) ![icon2](assets/images/projects/programming_languages/icons/skill-icons-swift.svg) ![icon2](assets/images/projects/programming_languages/icons/skill-icons-typescript.svg)
+![icon1](/assets/images/projects/programming_languages/icons/devicon-java.svg) ![icon3](/assets/images/projects/programming_languages/icons/skill-icons-cs.svg) ![icon4](/assets/images/projects/programming_languages/icons/skill-icons-kotlin-dark.svg) ![icon2](/assets/images/projects/programming_languages/icons/skill-icons-swift.svg) ![icon2](/assets/images/projects/programming_languages/icons/skill-icons-typescript.svg)
 
 ### Cluster 2 - Modern Corporate OOP
 
@@ -506,7 +506,7 @@ This is the 'industry backbone' cluster.
 
 This is the “next‑generation systems & app languages” cluster.
 
-![icon1](assets/images/projects/programming_languages/icons/skill-icons-golang1.svg) ![icon3](assets/images/projects/programming_languages/icons/skill-icons-dart-dark.svg) ![icon4](assets/images/projects/programming_languages/icons/CarbonCopyCloner_30254.png) ![icon2](assets/images/projects/programming_languages/icons/skill-icons_rust.svg)
+![icon1](/assets/images/projects/programming_languages/icons/skill-icons-golang1.svg) ![icon3](/assets/images/projects/programming_languages/icons/skill-icons-dart-dark.svg) ![icon4](/assets/images/projects/programming_languages/icons/CarbonCopyCloner_30254.png) ![icon2](/assets/images/projects/programming_languages/icons/skill-icons_rust.svg)
 
 ### Cluster 4 - Academic Declarative / Functional
 
@@ -518,7 +518,7 @@ This is the “next‑generation systems & app languages” cluster.
 
 This is the “research and theory” cluster.
 
-![icon1](assets/images/projects/programming_languages/icons/devicon-erlang.svg) ![icon3](assets/images/projects/programming_languages/icons/devicon-prolog.svg) ![icon4](assets/images/projects/programming_languages/icons/material-icon-theme-ocaml.svg) ![icon2](assets/images/projects/programming_languages/icons/skill-icons-haskell-dark.svg)
+![icon1](/assets/images/projects/programming_languages/icons/devicon-erlang.svg) ![icon3](/assets/images/projects/programming_languages/icons/devicon-prolog.svg) ![icon4](/assets/images/projects/programming_languages/icons/material-icon-theme-ocaml.svg) ![icon2](/assets/images/projects/programming_languages/icons/skill-icons-haskell-dark.svg)
 
 ### Cluster 0 — Legacy / Low‑Typing Procedural
 
@@ -530,7 +530,7 @@ This is the “research and theory” cluster.
 
 This is the “foundations of computing” cluster.
 
-![icon1](assets/images/projects/programming_languages/icons/material-icon-theme-cobol.svg) ![icon3](assets/images/projects/programming_languages/icons/material-icon-theme-pascal.svg) ![icon4](assets/images/projects/programming_languages/icons/skill-icons-c.svg) ![icon2](assets/images/projects/programming_languages/icons/vscode-icons-file-type-fortran.svg)
+![icon1](/assets/images/projects/programming_languages/icons/material-icon-theme-cobol.svg) ![icon3](/assets/images/projects/programming_languages/icons/material-icon-theme-pascal.svg) ![icon4](/assets/images/projects/programming_languages/icons/skill-icons-c.svg) ![icon2](/assets/images/projects/programming_languages/icons/vscode-icons-file-type-fortran.svg)
 
 ### Cluster 3 - DSL/Markup/Visual/Hybrid
 
@@ -542,7 +542,7 @@ This is the “foundations of computing” cluster.
 
 This is the 'non-Turing-complete/domain-specific' cluster
 
-![icon1](assets/images/projects/programming_languages/icons/devicon-html5-wordmark.svg) ![icon3](assets/images/projects/programming_languages/icons/devicon-css3-wordmark.svg) ![icon4](assets/images/projects/programming_languages/icons/devicon-sqlite-wordmark.svg) ![icon5](assets/images/projects/programming_languages/icons/skill-icons-markdown-dark.svg) ![icon2](assets/images/projects/programming_languages/icons/file-icons-scratch.svg)
+![icon1](/assets/images/projects/programming_languages/icons/devicon-html5-wordmark.svg) ![icon3](/assets/images/projects/programming_languages/icons/devicon-css3-wordmark.svg) ![icon4](/assets/images/projects/programming_languages/icons/devicon-sqlite-wordmark.svg) ![icon5](/assets/images/projects/programming_languages/icons/skill-icons-markdown-dark.svg) ![icon2](/assets/images/projects/programming_languages/icons/file-icons-scratch.svg)
 
 ## 7. INFLUENCE NETWORK
 
@@ -629,7 +629,7 @@ plt.title("Clean Influence Network (Filtered, Colored, Sized, Hierarchical)")
 plt.axis("off")
 plt.show()
 ```
-![chart](assets/images/projects/programming_languages/charts/clean_influence_network.png)
+![chart](/assets/images/projects/programming_languages/charts/clean_influence_network.png)
 
 **7.2 Compute centrality metrics**
 
@@ -886,9 +886,9 @@ Taken together, these findings show that the programming‑language landscape is
 Ultimately, this project demonstrates that programming languages form an ecosystem — one shaped by lineage, geography, paradigm, and purpose. Understanding this ecosystem helps us appreciate not only where our tools come from, but also how future languages may emerge, evolve, and influence the next generation of developers.
 
 # APPENDIX
-- [Jupyter Notebook](assets/images/projects/programming_languages/charts/Lang.ipynb)
+- [Jupyter Notebook](/assets/images/projects/programming_languages/charts/Lang.ipynb)
 - [Original_dataset](https://www.kaggle.com/datasets/hammadfarooq470/worlds-most-influential-programming-languages)
-- [Enhanced_dataset](assets/images/projects/programming_languages/images/df_lang.csv)
+- [Enhanced_dataset](/assets/images/projects/programming_languages/images/df_lang.csv)
 
 ---
 

@@ -4,7 +4,7 @@ title: "The Death of the Diamond Record"
 description: "A Deep Dive into the Global Best-Selling Albums of all time"
 date: 2026-01-15
 category: "data-analysis"
-image: "images/COVER.png"
+image: "images/album.jpg"
 technologies:
   - Python
   - Plotly
@@ -27,35 +27,35 @@ Why do certain albums become cultural pillars while others fade? I analyzed a da
 
 These visualization break down how Rock and Pop established a market monopoly during the peak vinyl and CD eras. 
 
-![sunburst_chart](assets/images/projects/best_selling_albums/sun.svg)
+![sunburst_chart](/assets/images/projects/best_selling_albums/sun.svg)
 
 ### 2. The Era Lock
 
 I used a scatter plot of sales volume vs. release year to visualize the 'plateau' of modern music. It reveals how the shift from physical ownership to digital streaming changed the definition of a "best-seller."
 
-![bubblescatter](assets/images/projects/best_selling_albums/scatter.svg)
+![bubblescatter](/assets/images/projects/best_selling_albums/scatter.svg)
 
-![heatmap](assets/images/projects/best_selling_albums/heatmap.svg)
+![heatmap](/assets/images/projects/best_selling_albums/heatmap.svg)
 
 ### 3. Artists Efficiency
 
 I calculated average sales per album to distinguish between "One-Hit Wonders" and artists with long-term commercial consistency.
 
-![chartscatter](assets/images/projects/best_selling_albums/scat.svg)
+![chartscatter](/assets/images/projects/best_selling_albums/scat.svg)
 
 ### 4. Artists Efficiency
 
 A look at the "Origin of Sound," showing how a handful of countries have dominated the global music economy for decades.
 
-![mapchart](assets/images/projects/best_selling_albums/map.svg)
+![mapchart](/assets/images/projects/best_selling_albums/map.svg)
 
 ### 5. The Best Ones
 
 And here they are, the "Best Ones"!
 
-![barchart](assets/images/projects/best_selling_albums/bar.svg)
+![barchart](/assets/images/projects/best_selling_albums/bar.svg)
 
-![top5](assets/images/projects/best_selling_albums/top.png)
+![top5](/assets/images/projects/best_selling_albums/top.png)
 
 ## The "Hidden Story" Discovery
 
@@ -63,7 +63,7 @@ While performing my analysis, I uncovered a startling trend: The "Best-Sellers C
 
 ## Base Dataset
 
-[best_selling_albums.csv](assets/images/projects/best_selling_albums/best_selling_albums.csv)
+[best_selling_albums.csv](/assets/images/projects/best_selling_albums/best_selling_albums.csv)
 
 ## Technical Toolkit
 
