@@ -46,9 +46,6 @@ title: Projects
     <button class="filter-btn" onclick="filterProjects('automation')">
       Automation
     </button>
-    <button class="filter-btn" onclick="filterProjects('web')">
-      Web Development
-    </button>
   </div>
 
   <!-- Projects Grid -->
@@ -108,7 +105,7 @@ title: Projects
           </a>
           {% if project.github %}
           <a href="{{ project.github }}" target="_blank" class="project-github-link" title="View on GitHub">
-            <iconify-icon icon="fa7-brands:github" width="20" style="color:#ffffff"></iconify-icon>
+            <iconify-icon icon="fa7-brands:github" width="30" style="color:#ffffff"></iconify-icon>
           </a>
           {% endif %}
         </div>
@@ -543,4 +540,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
+
 
