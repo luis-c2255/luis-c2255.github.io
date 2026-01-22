@@ -10,7 +10,7 @@ title: Home
       Hi, I'm <span class="highlight">Luis Modesto</span>
     </h1>
     <p class="hero-subtitle">
-      Data Analyst | Process Optimizer | Customer Experience Strategist
+      Data Analyst | Process Optimizer | Customer Service Specialist
     </p>
     <p class="hero-description">
       I transform complex datasets into actionable business stories. With a decade of experience in customer operations and a suite of professional certifications in Data Science and Automation, I bridge the gap between technical analysis and human-centric solutions.
@@ -27,32 +27,28 @@ title: Home
 <div class="home-stats fade-in">
   <div class="stat-item">
     <span class="stat-icon">
-    <svg width="48" height="48" viewBox="0 0 32 32"  fill="#4CC9A6"> 
-      <path d="M4 8h7.1a5.002 5.002 0 0 1 9.8 0H28a3 3 0 0 1 3 3v17a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V11a3 3 0 0 1 3-3m14.83 0a3.001 3.001 0 0 0-5.66 0zM3 15.44l.032.001A3 3 0 0 0 6 18h6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2h6a3 3 0 0 0 2.968-2.559H29V11a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1zM19 19v-1a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v1zm-6 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1zm-1 0H6a4.98 4.98 0 0 1-3-1v9a1 1 0 0 0 1 1h24a1 1 0 0 0 1-1v-9c-.835.628-1.874 1-3 1h-6v1a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/></svg>
+    <iconify-icon icon="fxemoji:briefcase" width="48" style="color:#4CC9A6"></iconify-icon>
     </span>
     <span class="stat-number">{{ site.projects.size }}+</span>
     <span class="stat-label">Projects</span>
   </div>
   <div class="stat-item">
     <span class="stat-icon">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="#4CC9A6"> 
-        <path d="m13 21l2-1l2 1v-7h-4m4-5V7l-2 1l-2-1v2l-2 1l2 1v2l2-1l2 1v-2l2-1m1-7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7v-2H4V5h16v10h-1v2h1a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-9 5H5V6h6m-2 5H5V9h4m2 5H5v-2h6Z"/></svg>
+      <iconify-icon icon="vscode-icons:file-type-allcontributors" width="48" style="color:#4CC9A6"></iconify-icon>
     </span>
     <span class="stat-number">{{ site.certifications.size }}</span>
     <span class="stat-label">Certifications</span>
   </div>
   <div class="stat-item">
     <span class="stat-icon">
-      <svg width="48" height="48" viewBox="0 0 20 20">
-        <g fill="none" fill-rule="evenodd" clip-rule="evenodd"><path fill="#3A8DFF" d="M7 2.75a.75.75 0 0 1 .75.75v3.575l2.136 1.282a.75.75 0 1 1-.772 1.286l-2.5-1.5A.75.75 0 0 1 6.25 7.5v-4A.75.75 0 0 1 7 2.75"/><path fill="#4CC9A6" d="M1.5 7a5.5 5.5 0 0 1 9.82-3.405l-.966.965a.5.5 0 0 0 .353.854H13.5a.5.5 0 0 0 .5-.5V2.12a.5.5 0 0 0-.854-.354l-.76.761a7 7 0 1 0 1.427 6.086a.75.75 0 0 0-1.46-.344A5.5 5.5 0 0 1 1.5 7"/></g></svg>
+      <iconify-icon icon="streamline-sharp-color:reset-clock-flat" width="48" style="color:#4CC9A6"></iconify-icon>
     </span>
     <span class="stat-number">500+</span>
     <span class="stat-label">Hours Learning</span>
   </div>
   <div class="stat-item">
     <span class="stat-icon">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="#4CC9A6">
-      <path d="M17.504 7.501H7.5v10.003h10.003z"/><path fill="#4CC9A6" d="M21.505 5.5v-2h-2v-2h-2.001v2h-2v-2h-2.001v2h-2v-2H9.501v2h-2v-2H5.5v2h-2v2h-2v2.001h2v2h-2v2.001h2v2h-2v2.001h2v2h-2v2.001h2v2h2v2.001h2.001v-2h2v2h2.001v-2h2v2h2.001v-2h2v2h2.001v-2h2v-2h2.001v-2.001h-2v-2h2v-2.001h-2v-2h2V9.501h-2v-2h2V5.5zm-2 14.004H5.5V5.501h14.003z"/></svg>
+      <iconify-icon icon="fluent-emoji-flat:laptop" width="48" style="color:#4CC9A6"></iconify-icon>
     </span>
     <span class="stat-number">10+</span>
     <span class="stat-label">Technologies</span>
@@ -66,8 +62,7 @@ title: Home
   <div class="what-i-do-grid">
     <div class="what-i-do-card">
       <div class="wid-icon">
-        <svg width="48" height="48" viewBox="0 0 24 24">
-          <g fill="none" stroke="#4CC9A6" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m17 9l-3.044 4.566a1 1 0 0 1-1.727-.107l-.458-.918a1 1 0 0 0-1.727-.107L7 17"/><rect width="18" height="18" x="3" y="3" rx="2"/></g></svg>
+        <iconify-icon icon="emojione:bar-chart" width="48" style="color:#4CC9A6"></iconify-icon>
       </div>
       <h3>Data Analysis</h3>
       <p>Extracting insights from complex datasets using Python, SQL, and statistical methods to drive business decisions.</p>
@@ -75,17 +70,15 @@ title: Home
     
     <div class="what-i-do-card">
       <div class="wid-icon">
-        <svg width="48" height="48" viewBox="0 0 48 48" path fill="#4CC9A6" fill-rule="evenodd">
-          <path d="M7 42a1 1 0 0 1-1-1V7h2v33h3V25a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v15h2V21a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v19h2V13a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v27h2v2zm30-2V14h-4v26zm-10 0h-4V22h4zm-10 0V26h-4v14z" clip-rule="evenodd"/></svg>
+        <iconify-icon icon="emojione-v1:stock-chart" width="48" style="color:#4CC9A6"></iconify-icon>
           </div>
       <h3>Data Visualization</h3>
-      <p>Creating compelling visual stories with Tableau, Power BI, and custom dashboards that make data accessible to everyone.</p>
+      <p>Creating compelling visual stories with Tableau, and custom dashboards that make data accessible to everyone.</p>
     </div>
     
     <div class="what-i-do-card">
       <div class="wid-icon">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="#4CC9A6">
-          <path d="M21 16V4H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7v2h2v2H8v-2h2v-2H3a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2zM5 6h9v5H5zm10 0h4v2h-4zm4 3v5h-4V9zM5 12h4v2H5zm5 0h4v2h-4z"/></svg>
+        <iconify-icon icon="vscode-icons:file-type-tmux" width="48"></iconify-icon>
           </div>
       <h3>UI/UX Design</h3>
       <p>Designing user-centered interfaces and experiences that are both functional and delightful to use.</p>
@@ -547,4 +540,5 @@ title: Home
     padding: 2rem 1.5rem;
   }
 }
+
 </style>
