@@ -6,7 +6,7 @@ title: About Me
 <!-- Hero Introduction -->
 <div class="about-hero fade-in">
   <div class="about-hero-content">
-    <h1>Hi, I'm Luis 👋</h1>
+    <h1>Hi, I'm Luis </h1>
     <p class="hero-lead">
       I'm a data analyst based in Barcelona, passionate about transforming complex data into clear, actionable insights that drive real business impact.
     </p>
@@ -19,15 +19,18 @@ title: About Me
   
   <div class="story-content">
     <p class="about-text">
-      My journey into data analytics started with a simple question: <strong>"How can we make better decisions?"</strong> This curiosity led me down a path of discovering how data, when analyzed correctly, can tell powerful stories and reveal hidden opportunities.
+      For over 10 years, I thrived in the fast-paced world of customer service at global brands like H&M and Guess. While I loved solving immediate problems for people, I became fascinated by the "why" behind the patterns I saw.
     </p>
     
     <p class="about-text">
-      With a background spanning data science, UX design, and IT automation, I bring a unique perspective to analytics. I don't just crunch numbers—I craft narratives that help teams understand what the data is really saying and what actions to take next.
+      In 2025, I took a leave of absence to immerse myself in personal growth, and expand horizons. And I didn't just learn one tool; I mastered the entire ecosystem - from Python automation and SQL databases to Machine Learning and UX Design. My goal is to use data not just to find numbers, but to find the stories that help businesses grow and serve their customers better.
     </p>
     
     <p class="about-text">
-      Today, I specialize in building clean, scalable analytics systems—from automated pipelines to interactive dashboards. My work blends technical rigor with strong UI/UX instincts, ensuring that insights aren't just accurate, but also accessible and actionable for everyone.
+      My transition into Data Science wasn't a sudden shift, but an evolution. While working as a Customer Service Specialist at H&M, I realized that efficiency starts with clear data. I took the initiative to design a workload template that allowed my team to visualize the tasks, enabling better prioritization and more balanced operations.
+    </p>
+    <p class="about-text">
+      I also recognized a gap in how we handled technical escalations. To bridge it, I authored a comprehensive IT User Guide, creating step-by-step protocols for resolving the most common issues. These experiences - balancing user needs with system logic - drove me to formalize my skills through Google and IBM professional certifications in Data Science, Python, and UX Design. 
     </p>
   </div>
 </div>
@@ -38,27 +41,21 @@ title: About Me
   
   <div class="approach-grid">
     <div class="approach-card">
-      <div class="approach-icon">🎯</div>
-      <h3>Focus on Impact</h3>
-      <p>I don't just deliver reports—I deliver insights that drive decisions. Every analysis starts with understanding the business question and ends with clear, actionable recommendations.</p>
+      <div class="approach-icon"><iconify-icon icon="mdi:lightbulb-on-90" width="52" style="color:#4cc9a6"></iconify-icon></div>
+      <h3>Business-Driven Analytics</h3>
+      <p>I focus on the "why" behind the data, ensuring every technical solution drives a measurable business outcome.</p>
     </div>
     
     <div class="approach-card">
-      <div class="approach-icon">🎨</div>
-      <h3>Design-Minded Analytics</h3>
-      <p>With a background in UX design, I create dashboards and visualizations that aren't just functional—they're intuitive and delightful to use.</p>
+      <div class="approach-icon"><iconify-icon icon="mdi:clock-fast" width="52" style="color:#4cc9a6"></iconify-icon></div>
+      <h3>Rapid, Adaptive Learning</h3>
+      <p>My career shift reflects my adaptability. I take on steep learning curves with enthusiasm and approach technical challenges as problems waiting to be decoded.</p>
     </div>
     
     <div class="approach-card">
-      <div class="approach-icon">🔄</div>
-      <h3>Automation First</h3>
-      <p>I believe in working smart. By automating repetitive tasks and building scalable pipelines, I free up time to focus on analysis that truly matters.</p>
-    </div>
-    
-    <div class="approach-card">
-      <div class="approach-icon">🤝</div>
-      <h3>Clear Communication</h3>
-      <p>Complex data doesn't have to be complicated. I translate technical findings into clear stories that anyone can understand and act upon.</p>
+      <div class="approach-icon"><iconify-icon icon="stash:arrows-switch-solid" width="52" style="color:#4cc9a6"></iconify-icon></div>
+      <h3>Automation Mindset</h3>
+      <p>I build for efficiency. By automating the routine, I ensure my time is spent on high-value analysis rather than manual maintenance.</p>
     </div>
   </div>
 </div>
@@ -71,36 +68,44 @@ title: About Me
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <div class="timeline-year">2025</div>
-        <h3>Completed IBM Data Science Certificate</h3>
-        <p>Expanded expertise in machine learning and generative AI applications for data science.</p>
+        <div class="timeline-year">2022 - Present</div>
+        <h3>Customer Service & Back Office Specialist | H&M Group, Barcelona</h3>
+        <p><strong>- Operational Efficiency:</strong> Developed custom workload templates to visualize team tasks, enabling data-informed prioritization and improved workflow management.</p>
+        <p><strong>- Technical Documentation:</strong> Authored a comprehensive "IT User Guide" for staff, streamlining the resolution of customer account, app, and membership issues.</p>
+        <p><strong>- Data Management:</strong> Managed back-office operations including accurate data entry, order processing, and record maintenance to ensure operational integrity.</p>
+        <p><strong>- Stakeholder Collaboration:</strong> Partnered with cross-functional departments to resolve complex issues and maintain a seamless customer experience.</p>
       </div>
     </div>
     
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <div class="timeline-year">2025</div>
-        <h3>Google Data Analytics Certification</h3>
-        <p>Mastered the complete data analytics workflow—from data cleaning to visualization and storytelling.</p>
+        <div class="timeline-year">2022</div>
+        <h3>Customer Service Agent | Guess, Barcelona</h3>
+        <p><strong>- Process Optimization:</strong> Collaborated with team members to identify service bottlenecks and implement efficient delivery solutions.</p>
+        <p><strong>- International Operations:</strong> Supported global expansion efforts by translating digital content into Portuguese, ensuring technical accuracy across regions.</p>
+        <p><strong>- Issue Resolution:</strong> Acted as a primary point of contact for complex inquiries, utilizing problem-solving methodologies to maintain high satisfaction levels.</p>
       </div>
     </div>
     
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <div class="timeline-year">2025</div>
-        <h3>UX Design & Project Management</h3>
-        <p>Gained expertise in user-centered design and Agile project management methodologies.</p>
+        <div class="timeline-year">2017 - 2021</div>
+        <h3>Assistant Manager | La Cava, Ibiza</h3>
+        <p><strong>- Resource Planning:</strong> Oversaw daily business operations, managing inventory levels and optimizing staff schedules to meet demand.</p>
+        <p><strong>- Training & Leadership:</strong> Responsible for training new employees on company policies, procedures, and service standards to ensure consistency.</p>
+        <p><strong>- Performance Monitoring:</strong> Monitored customer satisfaction metrics and implemented process improvements to enhance the overall guest experience.</p>
       </div>
     </div>
     
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <div class="timeline-year">2025</div>
-        <h3>IT Automation with Python</h3>
-        <p>Developed skills in automation, version control, and infrastructure management.</p>
+        <div class="timeline-year">2013 - 2017</div>
+        <h3>Visual Merchandiser | H&M, Barcelona</h3>
+        <p><strong>- Strategic Planning:</strong> Executed merchandising strategies based on sales data and trend analysis to maximize store traffic and revenue.</p>
+        <p><strong>- Project Execution:</strong> Planned and executed large-scale visual displays, collaborating with the sales team to align aesthetic goals with commercial targets.</p>
       </div>
     </div>
   </div>
@@ -112,18 +117,18 @@ title: About Me
   
   <div class="philosophy-content">
     <div class="philosophy-item">
-      <h3>📊 Data is a Story</h3>
-      <p>Every dataset has a narrative. My job is to uncover it and present it in a way that resonates with the audience—whether that's executives, product teams, or end users.</p>
+      <h3>Story-Driven Data</h3>
+      <p>I treat every dataset as a story waiting to be told. My goal is to uncover the underlying narrative and present it in a way that resonates with the audience’s specific goals and pain points.</p>
     </div>
     
     <div class="philosophy-item">
-      <h3>🔍 Question Everything</h3>
+      <h3>Question Everything</h3>
       <p>Good analysis starts with good questions. I approach every project with curiosity, challenging assumptions and digging deeper to find the real insights beneath the surface.</p>
     </div>
     
     <div class="philosophy-item">
-      <h3>🚀 Build for Scale</h3>
-      <p>Whether it's a dashboard, a pipeline, or a report, I design solutions that can grow with your needs. Clean code, clear documentation, and maintainability are non-negotiable.</p>
+      <h3>Holistic View</h3>
+      <p>I look at how data points connect across different departments, ensuring that a solution for one team doesn't create a problem for another.</p>
     </div>
   </div>
 </div>
@@ -134,87 +139,22 @@ title: About Me
   
   <div class="work-style-grid">
     <div class="work-style-card">
-      <div class="ws-icon">🏠</div>
+      <div class="ws-icon"><iconify-icon icon="streamline-ultimate:meeting-remote" width="52" style="color:#4cc9a6"></iconify-icon></div>
       <h3>Remote-Friendly</h3>
-      <p>Experienced in remote collaboration with clear communication and documentation</p>
+      <p>Experienced in working across distributed teams, with a focus on over-communication and rigorous documentation to keep projects moving forward.</p>
     </div>
     
     <div class="work-style-card">
-      <div class="ws-icon">🔄</div>
-      <h3>Agile Mindset</h3>
-      <p>Iterative approach with regular feedback and continuous improvement</p>
+      <div class="ws-icon"><iconify-icon icon="mdi:loop" width="52" style="color:#4cc9a6"></iconify-icon></div>
+      <h3>The Feedback Loop</h3>
+      <p>I treat feedback as a catalyst. A way to improve and grow, not just receiving but also giving.</p>
     </div>
     
     <div class="work-style-card">
-      <div class="ws-icon">🤝</div>
-      <h3>Collaborative</h3>
-      <p>Cross-functional teamwork with stakeholders from all backgrounds</p>
+      <div class="ws-icon"><iconify-icon icon="fluent:people-team-16-filled" width="52" style="color:#4cc9a6"></iconify-icon></div>
+      <h3>Team‑First Mindset</h3>
+      <p>I prioritize the project’s success over personal ego. I am a firm believer that the best insights come from open-minded debate, and that being "wrong" is just a step toward getting the data right.</p>
     </div>
-    
-    <div class="work-style-card">
-      <div class="ws-icon">📚</div>
-      <h3>Detail-Oriented</h3>
-      <p>Clean code, thorough documentation, and maintainable solutions</p>
-    </div>
-  </div>
-</div>
-
-<!-- Beyond Work -->
-<div class="content-section fade-in">
-  <h2>Beyond Data</h2>
-  
-  <div class="beyond-work">
-    <div class="interest-card">
-      <div class="interest-icon">🎨</div>
-      <h3>Design Enthusiast</h3>
-      <p>I'm constantly exploring modern web design trends and UI/UX principles. Good design isn't just about looks—it's about making things work better.</p>
-    </div>
-    
-    <div class="interest-card">
-      <div class="interest-icon">🌍</div>
-      <h3>Barcelona Life</h3>
-      <p>Living in Barcelona has given me an appreciation for creativity, innovation, and the perfect blend of tradition and modernity.</p>
-    </div>
-    
-    <div class="interest-card">
-      <div class="interest-icon">📚</div>
-      <h3>Continuous Learner</h3>
-      <p>Technology evolves fast, and I love keeping up. Currently exploring advanced machine learning and cloud technologies.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Fun Facts -->
-<div class="content-section fade-in">
-  <h2>Fun Facts</h2>
-  
-  <div class="fun-facts-container">
-    <ul class="fun-facts-list">
-      <li class="fun-fact-item">
-        <span class="fact-icon">☕</span>
-        <span class="fact-text">Coffee enthusiast—my best analyses happen after the second cup</span>
-      </li>
-      <li class="fun-fact-item">
-        <span class="fact-icon">📚</span>
-        <span class="fact-text">Currently reading: [Your favorite book or learning resource]</span>
-      </li>
-      <li class="fun-fact-item">
-        <span class="fact-icon">🎮</span>
-        <span class="fact-text">Favorite way to debug: Take a walk and let the solution come to me</span>
-      </li>
-      <li class="fun-fact-item">
-        <span class="fact-icon">🌟</span>
-        <span class="fact-text">Dream project: Building analytics tools that drive social impact</span>
-      </li>
-      <li class="fun-fact-item">
-        <span class="fact-icon">🗣️</span>
-        <span class="fact-text">Speak three languages: Spanish, English, and Catalan</span>
-      </li>
-      <li class="fun-fact-item">
-        <span class="fact-icon">🎯</span>
-        <span class="fact-text">Believe that good data viz can change minds and drive action</span>
-      </li>
-    </ul>
   </div>
 </div>
 
@@ -577,4 +517,5 @@ title: About Me
     padding: 1.5rem;
   }
 }
+
 </style>
