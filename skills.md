@@ -12,7 +12,7 @@ title: Skills
   <!-- Data Analysis & Programming -->
   <div class="skills-category">
     <h3 class="category-title">
-      <span class="category-icon">💻</span>
+      <span class="category-icon"><iconify-icon icon="emojione:bar-chart" width="40" style=""></iconify-icon></span>
       Data Analysis & Programming
     </h3>
     
@@ -24,7 +24,7 @@ title: Skills
             <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="90"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">🐍</span>
+            <span class="gauge-icon"><iconify-icon icon="devicon:python" width="40"></iconify-icon></span>
             <span class="gauge-percentage">90%</span>
           </div>
         </div>
@@ -33,14 +33,14 @@ title: Skills
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="85">
+        <div class="skill-gauge" data-percentage="70">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="85"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="70"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">🗄️</span>
-            <span class="gauge-percentage">85%</span>
+            <span class="gauge-icon"><iconify-icon icon="devicon:azuresqldatabase" width="40"></iconify-icon></span>
+            <span class="gauge-percentage">70%</span>
           </div>
         </div>
         <h4 class="skill-name">SQL</h4>
@@ -48,14 +48,14 @@ title: Skills
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="75">
+        <div class="skill-gauge" data-percentage="70">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="75"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="70"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">📊</span>
-            <span class="gauge-percentage">75%</span>
+            <span class="gauge-icon"><iconify-icon icon="material-icon-theme:r" width="40"></iconify-icon></span>
+            <span class="gauge-percentage">70%</span>
           </div>
         </div>
         <h4 class="skill-name">R</h4>
@@ -69,7 +69,7 @@ title: Skills
             <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="70"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">🤖</span>
+            <span class="gauge-icon"><iconify-icon icon="fluent:brain-circuit-28-regular" width="40"></iconify-icon></span>
             <span class="gauge-percentage">70%</span>
           </div>
         </div>
@@ -82,41 +82,11 @@ title: Skills
   <!-- Data Visualization -->
   <div class="skills-category">
     <h3 class="category-title">
-      <span class="category-icon">📈</span>
+      <span class="category-icon"><iconify-icon icon="flat-color-icons:area-chart" width="40"></iconify-icon></span>
       Data Visualization
     </h3>
     
     <div class="skills-gauge-grid">
-      <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="85">
-          <svg class="gauge-svg" viewBox="0 0 200 200">
-            <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="85"></circle>
-          </svg>
-          <div class="gauge-center">
-            <span class="gauge-icon">📊</span>
-            <span class="gauge-percentage">85%</span>
-          </div>
-        </div>
-        <h4 class="skill-name">Tableau</h4>
-        <p class="skill-description">Dashboards, Visual Analytics</p>
-      </div>
-
-      <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="80">
-          <svg class="gauge-svg" viewBox="0 0 200 200">
-            <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="80"></circle>
-          </svg>
-          <div class="gauge-center">
-            <span class="gauge-icon">📉</span>
-            <span class="gauge-percentage">80%</span>
-          </div>
-        </div>
-        <h4 class="skill-name">Power BI</h4>
-        <p class="skill-description">Business Intelligence, DAX</p>
-      </div>
-
       <div class="skill-gauge-card">
         <div class="skill-gauge" data-percentage="75">
           <svg class="gauge-svg" viewBox="0 0 200 200">
@@ -124,8 +94,38 @@ title: Skills
             <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="75"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">📈</span>
+            <span class="gauge-icon"><iconify-icon icon="logos:tableau-icon" width="40"></iconify-icon></span>
             <span class="gauge-percentage">75%</span>
+          </div>
+        </div>
+        <h4 class="skill-name">Tableau</h4>
+        <p class="skill-description">Dashboards, Visual Analytics</p>
+      </div>
+
+      <div class="skill-gauge-card">
+        <div class="skill-gauge" data-percentage="90">
+          <svg class="gauge-svg" viewBox="0 0 200 200">
+            <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="90"></circle>
+          </svg>
+          <div class="gauge-center">
+            <span class="gauge-icon"><iconify-icon icon="devicon:plotly" width="40"></iconify-icon></span>
+            <span class="gauge-percentage">90%</span>
+          </div>
+        </div>
+        <h4 class="skill-name">Plotly</h4>
+        <p class="skill-description">Interactive Dashboards</p>
+      </div>
+
+      <div class="skill-gauge-card">
+        <div class="skill-gauge" data-percentage="70">
+          <svg class="gauge-svg" viewBox="0 0 200 200">
+            <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="70"></circle>
+          </svg>
+          <div class="gauge-center">
+            <span class="gauge-icon"><iconify-icon icon="devicon:matplotlib" width="40"></iconify-icon></span>
+            <span class="gauge-percentage">70%</span>
           </div>
         </div>
         <h4 class="skill-name">Matplotlib/Seaborn</h4>
@@ -137,20 +137,20 @@ title: Skills
   <!-- Design & UI/UX -->
   <div class="skills-category">
     <h3 class="category-title">
-      <span class="category-icon">🎨</span>
+      <span class="category-icon"><iconify-icon icon="vscode-icons:file-type-tmux" width="48"></iconify-icon></span>
       Design & UI/UX
     </h3>
     
     <div class="skills-gauge-grid">
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="85">
+        <div class="skill-gauge" data-percentage="70">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="85"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="70"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">🎨</span>
-            <span class="gauge-percentage">85%</span>
+            <span class="gauge-icon"><iconify-icon icon="material-icon-theme:figma" width="40"></iconify-icon></span>
+            <span class="gauge-percentage">70%</span>
           </div>
         </div>
         <h4 class="skill-name">Figma</h4>
@@ -164,23 +164,23 @@ title: Skills
             <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="75"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">🖼️</span>
+            <span class="gauge-icon"><iconify-icon icon="la:codepen" width="40"></iconify-icon></span>
             <span class="gauge-percentage">75%</span>
           </div>
         </div>
-        <h4 class="skill-name">Adobe XD</h4>
+        <h4 class="skill-name">CodePen</h4>
         <p class="skill-description">User Experience Design</p>
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="80">
+        <div class="skill-gauge" data-percentage="70">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="80"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="70"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">🔍</span>
-            <span class="gauge-percentage">80%</span>
+            <span class="gauge-icon"><iconify-icon icon="mdi:user-search" width="40"></iconify-icon></span>
+            <span class="gauge-percentage">70%</span>
           </div>
         </div>
         <h4 class="skill-name">User Research</h4>
@@ -192,7 +192,7 @@ title: Skills
   <!-- Tools & Platforms -->
   <div class="skills-category">
     <h3 class="category-title">
-      <span class="category-icon">🛠️</span>
+      <span class="category-icon"><iconify-icon icon="noto:toolbox" width="40"></iconify-icon></span>
       Tools & Platforms
     </h3>
     
@@ -205,10 +205,7 @@ title: Skills
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- GitHub SVG Icon -->
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-              </svg>
+              <iconify-icon icon="devicon:git" width="40"></iconify-icon>
             </span>
             <span class="gauge-percentage">85%</span>
           </div>
@@ -218,14 +215,14 @@ title: Skills
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="75">
+        <div class="skill-gauge" data-percentage="85">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="75"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="85"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">📓</span>
-            <span class="gauge-percentage">75%</span>
+            <span class="gauge-icon"><iconify-icon icon="logos:jupyter" width="40"></iconify-icon></span>
+            <span class="gauge-percentage">85%</span>
           </div>
         </div>
         <h4 class="skill-name">Jupyter</h4>
@@ -233,14 +230,14 @@ title: Skills
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="70">
+        <div class="skill-gauge" data-percentage="75">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="70"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="75"></circle>
           </svg>
           <div class="gauge-center">
-            <span class="gauge-icon">📋</span>
-            <span class="gauge-percentage">70%</span>
+            <span class="gauge-icon"><iconify-icon icon="vscode-icons:file-type-excel" width="40"></iconify-icon></span>
+            <span class="gauge-percentage">75%</span>
           </div>
         </div>
         <h4 class="skill-name">Excel</h4>
@@ -255,10 +252,7 @@ title: Skills
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- Cloud SVG Icon -->
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
-              </svg>
+              <iconify-icon icon="streamline:cloud-check-solid" width="40"></iconify-icon>
             </span>
             <span class="gauge-percentage">65%</span>
           </div>
@@ -272,7 +266,7 @@ title: Skills
   <!-- Soft Skills -->
   <div class="skills-category">
     <h3 class="category-title">
-      <span class="category-icon">🤝</span>
+      <span class="category-icon"><iconify-icon icon="vscode-icons:file-type-coveralls" width="40"></iconify-icon></span>
       Soft Skills
     </h3>
     
@@ -285,10 +279,7 @@ title: Skills
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- Communication SVG Icon -->
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-              </svg>
+              <iconify-icon icon="emojione-monotone:speaking-head" width="40" style="color:#f7f9fc"></iconify-icon>
             </span>
             <span class="gauge-percentage">90%</span>
           </div>
@@ -298,22 +289,16 @@ title: Skills
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="85">
+        <div class="skill-gauge" data-percentage="90">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="85"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="90"></circle>
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- Team Work SVG Icon -->
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                <circle cx="9" cy="7" r="4"></circle>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-              </svg>
+              <iconify-icon icon="streamline-ultimate:workflow-teamwork-fistbump-2-bold" width="40"></iconify-icon>
             </span>
-            <span class="gauge-percentage">85%</span>
+            <span class="gauge-percentage">90%</span>
           </div>
         </div>
         <h4 class="skill-name">Team Collaboration</h4>
@@ -321,21 +306,16 @@ title: Skills
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="85">
+        <div class="skill-gauge" data-percentage="90">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="85"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="90"></circle>
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- Problem Solving SVG Icon -->
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                <line x1="12" y1="17" x2="12.01" y2="17"></line>
-              </svg>
+              <iconify-icon icon="streamline-freehand-color:plugin-jigsaw-puzzle" width="40"></iconify-icon>
             </span>
-            <span class="gauge-percentage">85%</span>
+            <span class="gauge-percentage">90%</span>
           </div>
         </div>
         <h4 class="skill-name">Problem Solving</h4>
@@ -343,21 +323,16 @@ title: Skills
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="80">
+        <div class="skill-gauge" data-percentage="90">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="80"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="90"></circle>
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- Project Management SVG Icon -->
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="9" y1="3" x2="9" y2="21"></line>
-                <line x1="3" y1="9" x2="21" y2="9"></line>
-              </svg>
+              <iconify-icon icon="icon-park-twotone:tree-list" width="40"></iconify-icon>
             </span>
-            <span class="gauge-percentage">80%</span>
+            <span class="gauge-percentage">90%</span>
           </div>
         </div>
         <h4 class="skill-name">Project Management</h4>
@@ -369,7 +344,7 @@ title: Skills
   <!-- Languages -->
   <div class="skills-category">
     <h3 class="category-title">
-      <span class="category-icon">🌍</span>
+      <span class="category-icon"><iconify-icon icon="emojione-v1:input-latin-letters" width="48"></iconify-icon></span>
       Languages
     </h3>
     
@@ -382,18 +357,12 @@ title: Skills
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- Spanish Flag Circle -->
-              <svg width="40" height="40" viewBox="0 0 60 60">
-                <circle cx="30" cy="30" r="28" fill="#AA151B"/>
-                <rect x="2" y="18" width="56" height="24" fill="#F1BF00"/>
-                <rect x="2" y="18" width="56" height="8" fill="#AA151B"/>
-                <rect x="2" y="34" width="56" height="8" fill="#AA151B"/>
-              </svg>
+              <iconify-icon icon="flagpack:pt" width="40"></iconify-icon>
             </span>
             <span class="gauge-percentage">Native</span>
           </div>
         </div>
-        <h4 class="skill-name">Spanish</h4>
+        <h4 class="skill-name">Portuguese</h4>
         <p class="skill-description">Native speaker</p>
       </div>
 
@@ -405,14 +374,7 @@ title: Skills
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- English Flag Circle -->
-              <svg width="40" height="40" viewBox="0 0 60 60">
-                <circle cx="30" cy="30" r="28" fill="#012169"/>
-                <path d="M 2,2 L 58,58 M 58,2 L 2,58" stroke="white" stroke-width="8"/>
-                <path d="M 2,2 L 58,58 M 58,2 L 2,58" stroke="#C8102E" stroke-width="4"/>
-                <path d="M 30,2 L 30,58 M 2,30 L 58,30" stroke="white" stroke-width="10"/>
-                <path d="M 30,2 L 30,58 M 2,30 L 58,30" stroke="#C8102E" stroke-width="6"/>
-              </svg>
+              <iconify-icon icon="flagpack:gb-ukm" width="40"></iconify-icon>
             </span>
             <span class="gauge-percentage">90%</span>
           </div>
@@ -422,27 +384,20 @@ title: Skills
       </div>
 
       <div class="skill-gauge-card">
-        <div class="skill-gauge" data-percentage="75">
+        <div class="skill-gauge" data-percentage="95">
           <svg class="gauge-svg" viewBox="0 0 200 200">
             <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
-            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="75"></circle>
+            <circle class="gauge-progress" cx="100" cy="100" r="80" data-value="95"></circle>
           </svg>
           <div class="gauge-center">
             <span class="gauge-icon">
-              <!-- Catalan Flag Circle -->
-              <svg width="40" height="40" viewBox="0 0 60 60">
-                <circle cx="30" cy="30" r="28" fill="#FCDD09"/>
-                <rect x="2" y="12" width="56" height="6" fill="#DA121A"/>
-                <rect x="2" y="24" width="56" height="6" fill="#DA121A"/>
-                <rect x="2" y="36" width="56" height="6" fill="#DA121A"/>
-                <rect x="2" y="48" width="56" height="6" fill="#DA121A"/>
-              </svg>
+              <iconify-icon icon="flagpack:es" width="40"></iconify-icon>
             </span>
-            <span class="gauge-percentage">75%</span>
+            <span class="gauge-percentage">95%</span>
           </div>
         </div>
-        <h4 class="skill-name">Catalan</h4>
-        <p class="skill-description">Conversational</p>
+        <h4 class="skill-name">Spanish</h4>
+        <p class="skill-description">Advanced</p>
       </div>
     </div>
   </div>
@@ -656,4 +611,5 @@ document.addEventListener('DOMContentLoaded', function() {
   
   gauges.forEach(gauge => gaugeObserver.observe(gauge));
 });
+
 </script>
