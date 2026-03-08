@@ -1,6 +1,7 @@
 import { useLanguage } from '../context/LanguageContext';
 import { projects } from '../data/projects';
 import { ArrowRight } from 'lucide-react';
+import { analytics } from './Analytics';
 
 interface GalleryProps {
   onSelectProject: (projectId: string) => void;
@@ -65,7 +66,10 @@ export default function Gallery({ onSelectProject }: GalleryProps) {
                 </div>
 
                 <button
-                  onClick={() => onSelectProject(project.id)}
+                  onClick={() => {
+                    analytics.trackProjectView(project.title[language]);
+                    onSelectProject(project.id);
+                  }}
                   className="group/btn flex items-center space-x-2 text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
                 >
                   <span>{t.projects.viewProject}</span>

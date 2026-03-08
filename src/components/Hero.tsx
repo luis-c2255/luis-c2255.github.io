@@ -1,5 +1,6 @@
 import { useLanguage } from '../context/LanguageContext';
 import { ChevronDown } from 'lucide-react';
+import { analytics } from '/Analytics';
 
 interface HeroProps {
   onViewProjects: () => void;
@@ -37,6 +38,7 @@ export default function Hero({ onViewProjects }: HeroProps) {
           <a
             href={language === 'en' ? '/resume-en.pdf' : '/resume-es.pdf'}
             download
+            onClick={() => analytics.trackResumeDownload(language)}
             className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-lg hover:from-cyan-600 hover:to-cyan-700 transition-all duration-300 shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] flex items-center space-x-2"
           >
             <svg

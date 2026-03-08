@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
@@ -9,12 +9,18 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import HudBackground from './components/HudBackground';
+import { Analytics, analytics } from './Analytics';
 
 type View = 'home' | 'projects' | 'skills' | 'about' | 'contact';
 
 function App() {
   const [currentView, setCurrentView] = useState<View>('home');
   const [selectedProjectId, setSelectedProjectId] = useState<string | null>(null);
+
+  // Track section views when currentView changes
+  useEffect(() => {
+    analytics.trackSectionView(currentView);
+  }, [currentView]);
 
   const handleViewProjects = () => {
     setCurrentView('projects');
@@ -36,6 +42,7 @@ function App() {
 
   return (
     <LanguageProvider>
+      <Analytics />
       <div className="min-h-screen bg-[#060b14] text-white flex flex-col">
         <HudBackground />
         <div className="relative z-10">
