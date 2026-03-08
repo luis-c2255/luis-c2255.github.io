@@ -1,7 +1,7 @@
 import AboutHero from './About/AboutHero';
 import AboutBio from './About/AboutBio';
 import SoftSkills from './About/SoftSkills';
-import ExperienceTimeline from './About/ExperienceTimeLine';
+import ExperienceTimeline from './About/ExperienceTimeline';
 import DataApproach from './About/DataApproach';
 import WorkStyle from './About/WorkStyle';
 
