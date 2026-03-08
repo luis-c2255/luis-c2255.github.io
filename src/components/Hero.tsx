@@ -1,6 +1,6 @@
 import { useLanguage } from '../context/LanguageContext';
 import { ChevronDown } from 'lucide-react';
-import { analytics } from '/Analytics';
+import { analytics } from '../Analytics';
 
 interface HeroProps {
   onViewProjects: () => void;

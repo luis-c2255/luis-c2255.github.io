@@ -1,7 +1,7 @@
 import { useLanguage } from '../context/LanguageContext';
 import { projects } from '../data/projects';
 import { ArrowRight } from 'lucide-react';
-import { analytics } from './Analytics';
+import { analytics } from '../Analytics';
 
 interface GalleryProps {
   onSelectProject: (projectId: string) => void;
