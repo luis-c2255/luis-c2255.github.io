@@ -647,6 +647,135 @@ export const projects: Project[] = [
      ],
      category: 'Data Analysis',
   },
+{
+  id: 'multiple_data_analysis',
+  title: {
+    en: 'Multiple Data Analytics',
+    es: 'Análisis de varios conjuntos de datos',
+  },
+  shortDescription: {
+    en: 'Analyzed multiple datasets covering several topics, from healthcare to e-commerce datasets; performed data cleaning and analysis; and extracted the key insights and recommendations.',
+    es: 'Se analizaron múltiples conjuntos de datos que abarcaban diversos temas, desde la asistencia sanitaria hasta el comercio electrónico; y se llevó a cabo la limpieza y el análisis de los datos, extrayendo las conclusiones y recomendaciones clave.',
+  },
+  description: {
+    en: 'Analyzed multiple datasets covering several topics, from healthcare to e-commerce datasets; performed data cleaning and analysis; and extracted the key insights and recommendations.',
+    es: 'Se analizaron múltiples conjuntos de datos que abarcaban diversos temas, desde la asistencia sanitaria hasta el comercio electrónico; y se llevó a cabo la limpieza y el análisis de los datos, extrayendo las conclusiones y recomendaciones clave.',
+  },
+  technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Numpy', 'Streamlit'],
+  features: {
+    en: [
+      'Sales & Revenue: Time-Series Forecasting, Segmentation, Trend Analysis.', 
+      'Patient Health Records: Classification, Correlation Analysis, Outlier Detection.', 
+      'Stock Market Prices: Time-Series Analysis, Moving Averages, Volatility Modeling.',
+      'Customer Churn: Logistic Regression, Clustering, Feature Importance.',
+      'Climate & Weather: Seasonal Decomposition, Anomaly Detection, Forecasting.',
+      'E-commerce Clickstream: Funnel Analysis, Cohort Analysis, Behavioral Clustering.',
+    ],
+    es: [
+      'Ventas e ingresos: previsión de series temporales, segmentación, análisis de tendencias.', 
+      'Historiales médicos de pacientes: clasificación, análisis de correlación, detección de valores atípicos.', 
+      'Precios del mercado bursátil: análisis de series temporales, medias móviles, modelos de volatilidad.',
+      'Pérdida de clientes: regresión logística, agrupación, importancia de las características.',
+      'Clima y meteorología: descomposición estacional, detección de anomalías, previsión.',
+      'Comercio electrónico Clickstream: análisis de embudo, análisis de cohortes, agrupación por comportamiento.',
+    ],
+  },
+  image: '/images/img.svg',
+  gallery: [
+    '/images/1.svg',
+    '/images/2.svg',
+    '/images/3.svg',
+  ],
+  links: [
+    {
+      label: { en: 'GitHub', es: 'GitHub' },
+      url: 'https://github.com/luis-c2255/Analytics-1',
+      type: 'github',
+    },
+    {
+      label: { en: 'Live Demo', es: 'Demo en Vivo'},
+      url: 'https://analytics-1-trjcz7qln7bv2sskobjeua.streamlit.app/',
+      type: 'demo',
+    },
+    {
+      label: { en: 'Documentation', es: 'Documentación'},
+      url: 'https://github.com/luis-c2255/Analytics-1/blob/main/README.md',
+      type: 'documentation',
+    },  
+  ],
+  charts: [
+    {
+      type: 'bar',
+      title: { en: 'Revenue by Category', es: 'Ingresos por categoría' },
+        data: {
+          labels: {
+            en: ['Beauty Products', 'Books', 'Clothing', 'Electronics', 'Home Appliances', 'Sports'],
+            es: ['Productos de belleza', 'Libros', 'Ropa', 'Electrónica', 'Electrodomésticos', 'Deportes'],
+          },
+          datasets: [{
+            label: 'Total ($)',
+            data: [2.622, 1.862, 8.129, 34.982, 18.646, 14.327],
+            backgroundColor: [
+              'rgba(6, 182, 212, 1)',
+              'rgba(32, 191, 217, 1)',
+              'rgba(41, 193, 219, 1)',
+              'rgba(58, 199, 223, 1)',
+              'rgba(84, 208, 228, 1)'
+            ],
+            borderColor: [
+              'rgba(6, 182, 212, 0.4)',
+              'rgba(32, 191, 219, 0.4)',
+              'rgba(41, 193, 217, 0.4)',
+              'rgba(58, 199, 223, 0.4)',
+              'rgba(84, 208, 228, 0.4)'
+            ],
+          }],
+         },
+      },
+      {
+      type: 'doughnut',
+      title: { en: 'Regional Distribution', es: 'Distribución Regional' },
+        data: {
+          labels: {
+            en: ['North America', 'Europe', 'Asia'],
+            es: ['America del Norte', 'Europa', 'Asia'],
+          },
+          datasets: [{
+            label: 'Distribución (%)',
+            data: [45.7, 26.4, 27.9],
+            backgroundColor: [
+              'rgba(6, 182, 212, 1)',
+              'rgba(6, 169, 198, 1)',
+              'rgba(103, 232, 249, 1)',
+            ],
+            borderColor: [
+              'rgba(6, 182, 212, 0.2)',
+              'rgba(6, 169, 198, 0.2)',
+              'rgba(103, 232, 249, 0.2)',
+            ],
+          }],
+         },
+      },
+      {
+      type: 'line',
+      title: { en: 'Monthly Trend Revenue', es: 'Tendencia mensual de ingresos' },
+        data: {
+          labels: {
+            en: ['Jan 2024', 'Feb 2024', 'Mar 2024', 'Apr 2024', 'May 2024', 'Jun 2024', 'Jul 2024', 'Ago 2024'],
+            es: ['Ene 2024', 'Feb 2024', 'Mar 2024', 'Abr 2024', 'May 2024', 'Jun 2024', 'Jul 2024', 'Ago 2024'],
+          },
+          datasets: [{
+            label: 'Total ($)',
+            data: [14.548, 10.803, 12.849, 12.451, 8.455, 7.384, 6.797, 7.278],
+            backgroundColor: 'rgba(6, 182, 212, 0.4)',
+            borderColor: 'rgba(6, 182, 212, 1)',
+           }],
+         },
+      },
+     ],
+     category: 'Data Analysis',
+  },
+
 ];
   // Template for adding new projects
   // {
