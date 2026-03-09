@@ -745,8 +745,9 @@ export const projects: Project[] = [
               data: [25, 25.2, 25.2, 24.7],
               backgroundColor: [
               'rgba(6, 182, 212, 1)',
-              'rgba(41, 193, 219, 1)',
+              'rgba(26, 143, 163, 1)',
               'rgba(180, 239, 247, 1)',
+              'rgba(159, 215, 221, 1)'
               ],
               borderColor: [
                 'rgba(6, 182, 212, 0.4)',
