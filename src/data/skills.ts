@@ -108,6 +108,6 @@ export const certifications: Certification[] = [
     issuer: 'Coursera',
     date: '2026',
     credentialUrl: 'https://github.com/luis-c2255/luis-c2255.github.io/blob/main/public/images/tableau.pdf',
-    thumbnail: 'public/images/tableau.png',
+    thumbnail: '/images/tableau.png',
   },
 ];
