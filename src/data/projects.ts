@@ -713,7 +713,7 @@ export const projects: Project[] = [
               es: ['Productos de belleza', 'Libros', 'Ropa', 'Electrónica', 'Electrodomésticos', 'Deportes'],
             },
             datasets: [{
-              label: '',
+              label: 'Revenue($)',
               data: [2.622, 1.862, 8.129, 34.982, 18.646, 14.327],
               backgroundColor: [
               'rgba(6, 182, 212, 1)',
