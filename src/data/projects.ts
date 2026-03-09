@@ -713,7 +713,7 @@ export const projects: Project[] = [
               es: ['Productos de belleza', 'Libros', 'Ropa', 'Electrónica', 'Electrodomésticos', 'Deportes'],
             },
             datasets: [{
-              label: 'Total ($)',
+              label: '',
               data: [2.622, 1.862, 8.129, 34.982, 18.646, 14.327],
               backgroundColor: [
               'rgba(6, 182, 212, 1)',
@@ -737,36 +737,52 @@ export const projects: Project[] = [
         title: { en: 'Regional Distribution', es: 'Distribución Regional' },
           data: {
             labels: {
-              en: ['North America', 'Europe', 'Asia'],
-              es: ['America del Norte', 'Europa', 'Asia'],
+              en: ['North', 'South', 'East', 'West'],
+              es: ['Norte', 'Sur', 'Este', 'Oeste'],
             },
             datasets: [{
               label: 'Distribución (%)',
-              data: [45.7, 26.4, 27.9],
+              data: [25, 25.2, 25.2, 24.7],
               backgroundColor: [
               'rgba(6, 182, 212, 1)',
-              'rgba(6, 169, 198, 1)',
-              'rgba(103, 232, 249, 1)',
+              'rgba(41, 193, 219, 1)',
+              'rgba(180, 239, 247, 1)',
               ],
               borderColor: [
-                'rgba(6, 182, 212, 0.2)',
-                'rgba(6, 169, 198, 0.2)',
-                'rgba(103, 232, 249, 0.2)',
+                'rgba(6, 182, 212, 0.4)',
+                'rgba(41, 193, 219, 0.4)',
+                'rgba(180, 239, 247, 0.4)',
               ],
             }],
           },
         },
         {
         type: 'line',
-        title: { en: 'Monthly Trend Revenue', es: 'Tendencia mensual de ingresos' },
+        title: { en: 'Average Temperature by Year', es: 'Temperatura media anual' },
           data: {
             labels: {
-              en: ['Jan 2024', 'Feb 2024', 'Mar 2024', 'Apr 2024', 'May 2024', 'Jun 2024', 'Jul 2024', 'Ago 2024'],
-              es: ['Ene 2024', 'Feb 2024', 'Mar 2024', 'Abr 2024', 'May 2024', 'Jun 2024', 'Jul 2024', 'Ago 2024'],
+              en: ['1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014'],
+              es: ['1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014'],
             },
             datasets: [{
-              label: 'Total ($)',
-              data: [14.548, 10.803, 12.849, 12.451, 8.455, 7.384, 6.797, 7.278],
+              label: 'Temperature (C)',
+              data: [14.55, 14.05, 13.60, 14.65, 14.74, 14.46, 15.02, 13.51, 14.07, 15.11, 14.38, 15.45, 14.52, 14.53, 15.80],
+              backgroundColor: 'rgba(6, 182, 212, 0.4)',
+              borderColor: 'rgba(6, 182, 212, 1)',
+            }],
+          },
+        },
+        {
+        type: 'radar',
+        title: { en: 'Cluster 0 Profile (Normalized)', es: 'Perfil del clúster 0 (normalizado)' },
+          data: {
+            labels: {
+              en: ['Balance', 'Age', 'Tenure', 'Num of Products', 'Credit Score'],
+              es: ['Saldo', 'Edad', 'Antigüedad', 'Número de productos', 'Puntuación crediticia'],
+            },
+            datasets: [{
+              label: '',
+              data: [0.635, 1, 0, 0.256, 0.325],
               backgroundColor: 'rgba(6, 182, 212, 0.4)',
               borderColor: 'rgba(6, 182, 212, 1)',
             }],
