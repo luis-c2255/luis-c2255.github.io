@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 // Replace this with YOUR Google Analytics Measurement ID
 // Get it from https://analytics.google.com/
-const GA_MEASUREMENT_ID = 'G-EQHMR0W2CY'; // TODO: Replace with your actual ID
+const GA_MEASUREMENT_ID = G-EQHMR0W2CY; // TODO: Replace with your actual ID
 
 declare global {
   interface Window {
@@ -14,7 +14,7 @@ declare global {
 export const Analytics = () => {
   useEffect(() => {
     // Only load in production
-    if (GA_MEASUREMENT_ID === 'G-EQHMR0W2CY') {
+    if (GA_MEASUREMENT_ID === G-EQHMR0W2CY) {
       console.warn('⚠️ Google Analytics not configured. Add your Measurement ID to Analytics.tsx');
       return;
     }
@@ -132,5 +132,6 @@ export const analytics = {
     trackEvent('view', 'Chart', chartTitle);
   },
 };
+
 
 export default Analytics;
