@@ -767,24 +767,32 @@ export const projects: Project[] = [
             datasets: [{
               label: 'Temperature (C)',
               data: [14.55, 14.05, 13.60, 14.65, 14.74, 14.46, 15.02, 13.51, 14.07, 15.11, 14.38, 15.45, 14.52, 14.53, 15.80],
-              backgroundColor: 'rgba(6, 182, 212, 0.4)',
-              borderColor: 'rgba(6, 182, 212, 1)',
+              backgroundColor: 'rgba(6, 182, 212, 1)',
+              borderColor: 'rgba(6, 182, 212, 0.4)',
             }],
           },
         },
         {
-        type: 'radar',
-        title: { en: 'Cluster 0 Profile (Normalized)', es: 'Perfil del clúster 0 (normalizado)' },
+        type: 'bar',
+        title: { en: 'Churn Rate by Geography', es: 'Tasa de abandono por zona geográfica' },
           data: {
             labels: {
-              en: ['Balance', 'Age', 'Tenure', 'Num of Products', 'Credit Score'],
-              es: ['Saldo', 'Edad', 'Antigüedad', 'Número de productos', 'Puntuación crediticia'],
+              en: ['France', 'Germany', 'Spain'],
+              es: ['Francia', 'Alemania', 'España'],
             },
             datasets: [{
-              label: '',
-              data: [0.635, 1, 0, 0.256, 0.325],
-              backgroundColor: 'rgba(6, 182, 212, 0.4)',
-              borderColor: 'rgba(6, 182, 212, 1)',
+              label: 'Churn Rate (%)',
+              data: [16.15, 32.44, 16.67],
+              backgroundColor: [
+                'rgba(6, 182, 212, 1)',
+                'rgba(41, 153, 175, 1)',
+                'rgba(180, 239, 247, 1)'
+              ],
+              borderColor: [
+                'rgba(6, 182, 212, 0.4)',
+                'rgba(41, 153, 175, 0.4)',
+                'rgba(180, 239, 247, 0.4)'
+              ],
             }],
           },
         },
