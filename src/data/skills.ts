@@ -100,4 +100,14 @@ export const certifications: Certification[] = [
     credentialUrl: 'https://github.com/luis-c2255/Google-IT-Support/blob/main/IT%20Support%20Certificate.pdf',
     thumbnail: '/images/it_sup.png',
   },
+  {
+    title: {
+      en: 'Tableau Business Intelligence Analyst Professional Certificate',
+      es: 'Certificado profesional de analista de inteligencia empresarial de Tableau',
+    },
+    issuer: 'Coursera',
+    date: '2026',
+    credentialUrl: 'https://github.com/luis-c2255/luis-c2255.github.io/blob/main/public/images/tableau.pdf',
+    thumbnail: 'public/images/tableau.png',
+  },
 ];
