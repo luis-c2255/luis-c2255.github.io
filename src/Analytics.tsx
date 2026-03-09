@@ -14,7 +14,7 @@ declare global {
 export const Analytics = () => {
   useEffect(() => {
     // Only load in production
-    if (GA_MEASUREMENT_ID === "G-EQHMR0W2CY") {
+    if (GA_MEASUREMENT_ID === 'G-XXXXXXXXXX') {
       console.warn('⚠️ Google Analytics not configured. Add your Measurement ID to Analytics.tsx');
       return;
     }
