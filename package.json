@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://luis-cms86.github.io",
+  "homepage": "https://luis-c2255.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
