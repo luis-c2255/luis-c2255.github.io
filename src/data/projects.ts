@@ -144,7 +144,7 @@ export const projects: Project[] = [
           es: 'Distribución de la segmentación de clientes',
         },
         data: {
-          labels: { 
+          labels: {
             en: ['Champions', 'New Customers', 'Lost', 'Loyal Customers', 'Promising', 'Potential Loyalists', 'At Risk', 'Hibernating'],
             es: ['Campeones', 'Nuevos Clientes', 'Perdidos', 'Clientes Leales', 'Prometedores', 'Potenciales Leales', 'En Riesgo', 'Hibernando'],
           },
@@ -219,68 +219,68 @@ export const projects: Project[] = [
     category: 'Data Analysis',
   },
 
-  
-{
-  id: 'spotify_analysis',
-  title: {
-    en: 'Spotify Music Analytics',
-    es: 'Análisis musical de Spotify',
-  },
-  shortDescription: {
-    en: 'Analyzed 550,619 songs from Spotify spanning 62 years (1961-2023) to uncover patterns in music popularity, artist performance, and audio characteristics. Built an interactive analytics dashboard with 50+ visualizations across 9 pages.',
-    es: 'Se analizaron 550 619 canciones de Spotify que abarcan 62 años (1961-2023) para descubrir patrones en la popularidad de la música, el rendimiento de los artistas y las características del audio. Se creó un panel de análisis interactivo con más de 50 visualizaciones en 9 páginas.',
-  },
-  description: {
-    en: 'Analyzed 550,619 songs from Spotify spanning 62 years (1961-2023) to uncover patterns in music popularity, artist performance, and audio characteristics. Built an interactive analytics dashboard with 50+ visualizations across 9 pages.',
-    es: 'Se analizaron 550 619 canciones de Spotify que abarcan 62 años (1961-2023) para descubrir patrones en la popularidad de la música, el rendimiento de los artistas y las características del audio. Se creó un panel de análisis interactivo con más de 50 visualizaciones en 9 páginas.',
-  },
-  technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Numpy'],
-  features: {
-    en: [
-      'Genre Analysis: Explore genre characteristics, comparisons, and evolution over time', 
-      'Audio Features: Deep dive into audio characteristics like energy, danceability, and valence.', 
-      'Artists Analytics: Analyze top artists, followers, and popularity metrics across the platform.',
-      'Temporal Analysis: Discover how music evolved over the decades.',
-      'Audio Analysis: Mood analysis, feature distribution, and sonic fingerprints.',
-      'Popularity Insights: What makes songs popular? Trends, patterns, and optimal characteristics.',
-      'Keys & Modes: Musical keys, modes, and harmonic analysis including Circle of Fifths.'
-    ],
-    es: [
-      'Análisis de géneros: explora las características, comparaciones y evolución de los géneros a lo largo del tiempo.', 
-      'Características de audio: profundiza en características de audio como la energía, la baileabilidad y la valencia.', 
-      'Análisis de artistas: analiza los artistas más populares, sus seguidores y métricas de popularidad en toda la plataforma.',
-      'Análisis temporal: descubre cómo ha evolucionado la música a lo largo de las décadas.',
-      'Análisis de audio: análisis del estado de ánimo, distribución de características y huellas sonoras.',
-      'nformación sobre la popularidad: ¿qué hace que las canciones sean populares? Tendencias, patrones y características óptimas',
-      'Tonalidades y modos: tonalidades musicales, modos y análisis armónico, incluido el círculo de quintas'
-    ],
-  },
-  image: '/images/spotify.svg',
-  gallery: [
-    '/images/spotify.svg',
-    '/images/dataset_overview.png',
-  ],
-  links: [
-    {
-      label: { en: 'GitHub', es: 'GitHub' },
-      url: 'https://github.com/luis-c2255/550k_Spotify_Songs/tree/main',
-      type: 'github',
+
+  {
+    id: 'spotify_analysis',
+    title: {
+      en: 'Spotify Music Analytics',
+      es: 'Análisis musical de Spotify',
     },
-    {
-      label: { en: 'Live Demo', es: 'Demo en Vivo'},
-      url: 'https://huggingface.co/spaces/Luismodesto86/Spotify_Analysis_Dashboard',
-      type: 'demo',
+    shortDescription: {
+      en: 'Analyzed 550,619 songs from Spotify spanning 62 years (1961-2023) to uncover patterns in music popularity, artist performance, and audio characteristics. Built an interactive analytics dashboard with 50+ visualizations across 9 pages.',
+      es: 'Se analizaron 550 619 canciones de Spotify que abarcan 62 años (1961-2023) para descubrir patrones en la popularidad de la música, el rendimiento de los artistas y las características del audio. Se creó un panel de análisis interactivo con más de 50 visualizaciones en 9 páginas.',
     },
-    {
-      label: { en: 'Documentation', es: 'Documentación'},
-      url: 'https://huggingface.co/spaces/Luismodesto86/Spotify_Analysis_Dashboard/blob/main/README.md',
-      type: 'documentation',
-    },  
-  ],
-  charts: [
-    {
-      type: 'bar',
-      title: { en: 'Top 5 Most Followed Artists', es: 'Los 5 artistas con más seguidores' },
+    description: {
+      en: 'Analyzed 550,619 songs from Spotify spanning 62 years (1961-2023) to uncover patterns in music popularity, artist performance, and audio characteristics. Built an interactive analytics dashboard with 50+ visualizations across 9 pages.',
+      es: 'Se analizaron 550 619 canciones de Spotify que abarcan 62 años (1961-2023) para descubrir patrones en la popularidad de la música, el rendimiento de los artistas y las características del audio. Se creó un panel de análisis interactivo con más de 50 visualizaciones en 9 páginas.',
+    },
+    technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Numpy'],
+    features: {
+      en: [
+        'Genre Analysis: Explore genre characteristics, comparisons, and evolution over time',
+        'Audio Features: Deep dive into audio characteristics like energy, danceability, and valence.',
+        'Artists Analytics: Analyze top artists, followers, and popularity metrics across the platform.',
+        'Temporal Analysis: Discover how music evolved over the decades.',
+        'Audio Analysis: Mood analysis, feature distribution, and sonic fingerprints.',
+        'Popularity Insights: What makes songs popular? Trends, patterns, and optimal characteristics.',
+        'Keys & Modes: Musical keys, modes, and harmonic analysis including Circle of Fifths.'
+      ],
+      es: [
+        'Análisis de géneros: explora las características, comparaciones y evolución de los géneros a lo largo del tiempo.',
+        'Características de audio: profundiza en características de audio como la energía, la baileabilidad y la valencia.',
+        'Análisis de artistas: analiza los artistas más populares, sus seguidores y métricas de popularidad en toda la plataforma.',
+        'Análisis temporal: descubre cómo ha evolucionado la música a lo largo de las décadas.',
+        'Análisis de audio: análisis del estado de ánimo, distribución de características y huellas sonoras.',
+        'nformación sobre la popularidad: ¿qué hace que las canciones sean populares? Tendencias, patrones y características óptimas',
+        'Tonalidades y modos: tonalidades musicales, modos y análisis armónico, incluido el círculo de quintas'
+      ],
+    },
+    image: '/images/spotify.svg',
+    gallery: [
+      '/images/spotify.svg',
+      '/images/dataset_overview.png',
+    ],
+    links: [
+      {
+        label: { en: 'GitHub', es: 'GitHub' },
+        url: 'https://github.com/luis-c2255/550k_Spotify_Songs/tree/main',
+        type: 'github',
+      },
+      {
+        label: { en: 'Live Demo', es: 'Demo en Vivo' },
+        url: 'https://huggingface.co/spaces/Luismodesto86/Spotify_Analysis_Dashboard',
+        type: 'demo',
+      },
+      {
+        label: { en: 'Documentation', es: 'Documentación' },
+        url: 'https://huggingface.co/spaces/Luismodesto86/Spotify_Analysis_Dashboard/blob/main/README.md',
+        type: 'documentation',
+      },
+    ],
+    charts: [
+      {
+        type: 'bar',
+        title: { en: 'Top 5 Most Followed Artists', es: 'Los 5 artistas con más seguidores' },
         data: {
           labels: {
             en: ['Taylor Swift', 'Ed Sheeran', 'Drake', 'Vishal-Shekhar', 'The Weekend'],
@@ -304,11 +304,11 @@ export const projects: Project[] = [
               'rgba(215, 250, 254, 0.8)'
             ],
           }],
-         },
+        },
       },
       {
-      type: 'doughnut',
-      title: { en: 'Song Length Distribution', es: 'Distribución de la duración de las canciones' },
+        type: 'doughnut',
+        title: { en: 'Song Length Distribution', es: 'Distribución de la duración de las canciones' },
         data: {
           labels: {
             en: ['Standard (3-4m)', 'Long (4-5m)', 'Short(2-3m)', 'Very Long(>5m)', 'Very Short(<2m)'],
@@ -332,11 +332,11 @@ export const projects: Project[] = [
               'rgba(215, 250, 254, 0.2)'
             ],
           }],
-         },
+        },
       },
       {
-      type: 'line',
-      title: { en: 'Average Popularity by Decade', es: 'Mediana de popularidad por década' },
+        type: 'line',
+        title: { en: 'Average Popularity by Decade', es: 'Mediana de popularidad por década' },
         data: {
           labels: {
             en: ['1920', '1940', '1960', '1980', '2000', '2020'],
@@ -347,75 +347,75 @@ export const projects: Project[] = [
             data: [10.67, 13.3, 23.71, 24.22, 14.77, 20.7],
             backgroundColor: 'rgba(6, 182, 212, 0.5)',
             borderColor: 'rgba(6, 182, 212, 1)',
-           }],
-         },
+          }],
+        },
       },
-     ],
-     category: 'Data Analysis',
+    ],
+    category: 'Data Analysis',
   },
   {
-  id: 'disasters_analysis',
-  title: {
-    en: 'Global Disaster Events Dashboard',
-    es: 'Análisis de eventos globales de desastres',
-  },
-  shortDescription: {
-    en: 'Understanding Patterns, Impact, and Response in Natural Disasters.',
-    es: 'Comprender los patrones, el impacto y la respuesta ante los desastres naturales.',
-  },
-  description: {
-    en: 'This comprehensive dashboard provides deep insights into global disaster events, helping stakeholders make data-driven decisions for disaster preparedness, response, and recovery.',
-    es: 'Este completo panel de control proporciona información detallada sobre los desastres naturales a nivel mundial, lo que ayuda a las partes interesadas a tomar decisiones basadas en datos para la preparación, la respuesta y la recuperación ante desastres.',
-  },
-  technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Numpy', 'Seaborn', 'Scikit-Learn', 'Scipy'],
-  features: {
-    en: [
-      'Overview: Executive summary of global disaster trends, key statistics, and major events.', 
-      'Temporal Analysis: Time-based patterns, seasonality, and trends in disaster occurrences.', 
-      'Disaster Types: Deep dive into different disaster categories (natural, technological, human-made) and their characteristics.',
-      'Geographic Analysis: Spatial distribution of disasters, hotspots, and regional vulnerabilities.',
-      'Severity & Impact: Understanding the scale of disasters through metrics like fatalities, economic losses, and affected populations.',
-      'Response Analysis: Evaluating the effectiveness of disaster response efforts and recovery timelines.',
-      'Correlations: Discovering relationships between variables such as disaster type, location, severity, and response outcomes.'
-    ],
-    es: [
-      'Resumen ejecutivo: resumen de las tendencias mundiales en materia de desastres, estadísticas clave y acontecimientos importantes.', 
-      'Análisis temporal: patrones basados en el tiempo, estacionalidad y tendencias en la ocurrencia de desastres.', 
-      'Tipos de desastres: análisis profundo de las diferentes categorías de desastres (naturales, tecnológicos, causados por el hombre) y sus características.',
-      'Análisis geográfico: distribución espacial de los desastres, puntos calientes y vulnerabilidades regionales.',
-      'Gravedad e impacto: comprensión del alcance de los desastres mediante métricas como fallecimientos, pérdidas económicas y poblaciones afectadas.',
-      'Análisis de respuesta: evaluación de la eficacia de los esfuerzos de respuesta ante desastres y cronogramas de recuperación.',
-      'Correlaciones: descubrimiento de relaciones entre variables como tipo de desastre, ubicación, gravedad y resultados de respuesta.'
-    ],
-  },
-  image: '/images/disaster.png',
-  gallery: [
-    '/images/disaster.png',
-    '/images/types.png',
-  ],
-  links: [
-    {
-      label: { en: 'GitHub', es: 'GitHub' },
-      url: 'https://github.com/luis-c2255/Disasters_2025',
-      type: 'github',
+    id: 'disasters_analysis',
+    title: {
+      en: 'Global Disaster Events Dashboard',
+      es: 'Análisis de eventos globales de desastres',
     },
-    {
-      label: { en: 'Live Demo', es: 'Demo en Vivo'},
-      url: 'https://huggingface.co/spaces/Luismodesto86/Disasters_2025',
-      type: 'demo',
+    shortDescription: {
+      en: 'Understanding Patterns, Impact, and Response in Natural Disasters.',
+      es: 'Comprender los patrones, el impacto y la respuesta ante los desastres naturales.',
     },
-    {
-      label: { en: 'Documentation', es: 'Documentación'},
-      url: 'https://huggingface.co/spaces/Luismodesto86/Disaster_2025/blob/main/README.md',
-      type: 'documentation',
-    },  
-  ],
-  charts: [
-    {
-      type: 'line',
-      title: { en: 'Response Time Trend', es: 'Tendencia del Tiempo de Respuesta' },
+    description: {
+      en: 'This comprehensive dashboard provides deep insights into global disaster events, helping stakeholders make data-driven decisions for disaster preparedness, response, and recovery.',
+      es: 'Este completo panel de control proporciona información detallada sobre los desastres naturales a nivel mundial, lo que ayuda a las partes interesadas a tomar decisiones basadas en datos para la preparación, la respuesta y la recuperación ante desastres.',
+    },
+    technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Numpy', 'Seaborn', 'Scikit-Learn', 'Scipy'],
+    features: {
+      en: [
+        'Overview: Executive summary of global disaster trends, key statistics, and major events.',
+        'Temporal Analysis: Time-based patterns, seasonality, and trends in disaster occurrences.',
+        'Disaster Types: Deep dive into different disaster categories (natural, technological, human-made) and their characteristics.',
+        'Geographic Analysis: Spatial distribution of disasters, hotspots, and regional vulnerabilities.',
+        'Severity & Impact: Understanding the scale of disasters through metrics like fatalities, economic losses, and affected populations.',
+        'Response Analysis: Evaluating the effectiveness of disaster response efforts and recovery timelines.',
+        'Correlations: Discovering relationships between variables such as disaster type, location, severity, and response outcomes.'
+      ],
+      es: [
+        'Resumen ejecutivo: resumen de las tendencias mundiales en materia de desastres, estadísticas clave y acontecimientos importantes.',
+        'Análisis temporal: patrones basados en el tiempo, estacionalidad y tendencias en la ocurrencia de desastres.',
+        'Tipos de desastres: análisis profundo de las diferentes categorías de desastres (naturales, tecnológicos, causados por el hombre) y sus características.',
+        'Análisis geográfico: distribución espacial de los desastres, puntos calientes y vulnerabilidades regionales.',
+        'Gravedad e impacto: comprensión del alcance de los desastres mediante métricas como fallecimientos, pérdidas económicas y poblaciones afectadas.',
+        'Análisis de respuesta: evaluación de la eficacia de los esfuerzos de respuesta ante desastres y cronogramas de recuperación.',
+        'Correlaciones: descubrimiento de relaciones entre variables como tipo de desastre, ubicación, gravedad y resultados de respuesta.'
+      ],
+    },
+    image: '/images/disaster.png',
+    gallery: [
+      '/images/disaster.png',
+      '/images/types.png',
+    ],
+    links: [
+      {
+        label: { en: 'GitHub', es: 'GitHub' },
+        url: 'https://github.com/luis-c2255/Disasters_2025',
+        type: 'github',
+      },
+      {
+        label: { en: 'Live Demo', es: 'Demo en Vivo' },
+        url: 'https://huggingface.co/spaces/Luismodesto86/Disasters_2025',
+        type: 'demo',
+      },
+      {
+        label: { en: 'Documentation', es: 'Documentación' },
+        url: 'https://huggingface.co/spaces/Luismodesto86/Disaster_2025/blob/main/README.md',
+        type: 'documentation',
+      },
+    ],
+    charts: [
+      {
+        type: 'line',
+        title: { en: 'Response Time Trend', es: 'Tendencia del Tiempo de Respuesta' },
         data: {
-          labels: { 
+          labels: {
             en: ['Jan 2023', 'Jul 2023', 'Jan 2024', 'Jul 2024', 'Jan 2025', 'Jul 2025'],
             es: ['Ene 2023', 'Jul 2023', 'Ene 2024', 'Jul 2024', 'Ene 2025', 'Jul 2025'],
           },
@@ -437,13 +437,13 @@ export const projects: Project[] = [
               'rgba(145, 227, 240, 0.4)'
             ],
           }],
-         },
+        },
       },
       {
-      type: 'doughnut',
-      title: { en: 'Proportion of Each Disaster Type', es: 'Distribución de tipos de desastres' },
+        type: 'doughnut',
+        title: { en: 'Proportion of Each Disaster Type', es: 'Distribución de tipos de desastres' },
         data: {
-          labels: { 
+          labels: {
             en: ['Earthquake', 'Landslide', 'Wildfire', 'Hurricane', 'Drought', 'Volcanic Eruption', 'Flood'],
             es: ['Terremoto', 'Deslizamiento de Tierra', 'Incendio Forestal', 'Huracán', 'Sequia', 'Erupción Volcánica', 'Inundación'],
           },
@@ -469,13 +469,13 @@ export const projects: Project[] = [
               'rgba(215, 250, 254, 0.4)'
             ],
           }],
-         },
+        },
       },
       {
-      type: 'bar',
-      title: { en: 'Top 5 Disaster Types: Evolution Over Time', es: 'Evolución de los 5 tipos de desastres más comunes' },
+        type: 'bar',
+        title: { en: 'Top 5 Disaster Types: Evolution Over Time', es: 'Evolución de los 5 tipos de desastres más comunes' },
         data: {
-          labels: { 
+          labels: {
             en: ['Drought', 'Earthquake', 'Hurricane', 'Landslide', 'Wildfire'],
             es: ['Sequia', 'Terremoto', 'Huracán', 'Deslizamiento de Tierra', 'Incendio Forestal']
           },
@@ -495,72 +495,72 @@ export const projects: Project[] = [
               'rgba(111, 216, 233, 0.4)',
               'rgba(145, 227, 240, 0.4)',
               'rgba(180, 239, 247, 0.4)'
-             ],           
-            }],
-         },
+            ],
+          }],
+        },
       },
-     ],
-     category: 'Data Analysis',
+    ],
+    category: 'Data Analysis',
   },
   {
-  id: 'customer_segmentation',
-  title: {
-    en: 'Mall Customers Analytics Dashboard',
-    es: 'Análisis de clientes de un centro comercial',
-  },
-  shortDescription: {
-    en: 'A complete end to end customer segmentation and behavioral insights project',
-    es: 'Un proyecto completo de segmentación de clientes y análisis del comportamiento de principio a fin.',
-  },
-  description: {
-    en: 'This project transforms the classic Mall Customers dataset into a fully interactive analytics product. The goal is to demonstrate how even a small dataset can support a complete analytical workflow and a polished, user-friendly dashboard.',
-    es: 'Este proyecto transforma el conjunto de datos clásico «Mall Customers» en un producto analítico totalmente interactivo. El objetivo es demostrar cómo incluso un conjunto de datos pequeño puede respaldar un flujo de trabajo analítico completo y un panel de control pulido y fácil de usar.',
-  },
-  technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Scikit-Learn'],
-  features: {
-    en: [
-      'Overview: Executive summary of customer demographics, spending patterns, and key insights.', 
-      'Distribution Analysis: Explore distributions of age, income, spending score, and other key variables.', 
-      'Relationship Analysis: Analyze correlations between variables to uncover hidden patterns and customer behaviors.',
-      'Segmentation: Apply clustering algorithms to segment customers into distinct groups based on their characteristics and behaviors.',
-      'Behavioral Insights: Analyze spending patterns, preferences, and behaviors of different customer segments.',
-      'Modeling: Build predictive models to forecast customer behavior, such as spending score or segment membership.'
-    ],
-    es: [
-      'Resumen ejecutivo: resumen ejecutivo de los datos demográficos de los clientes, los patrones de gasto y la información clave.', 
-      'Análisis de distribución: explora las distribuciones de edad, ingresos, puntuación de gasto y otras variables clave.', 
-      'Análisis de relaciones: analiza las correlaciones entre variables para descubrir patrones ocultos y comportamientos de los clientes.',
-      'Segmentación: aplica algoritmos de agrupamiento para segmentar a los clientes en grupos distintos basados en sus características y comportamientos.',
-      'Insights comportamentales: analiza los patrones de gasto, preferencias y comportamientos de diferentes segmentos de clientes.',
-      'Modelado: construye modelos predictivos para predecir el comportamiento del cliente, como la puntuación de gasto o la membresía en un segmento.'
-    ],
-  },
-  image: '/images/mall.png',
-  gallery: [
-    '/images/mall.png',
-    '/images/dash1.png',
-  ],
-  links: [
-    {
-      label: { en: 'GitHub', es: 'GitHub' },
-      url: 'https://github.com/luis-c2255/mall_customers_segmentation',
-      type: 'github',
+    id: 'customer_segmentation',
+    title: {
+      en: 'Mall Customers Analytics Dashboard',
+      es: 'Análisis de clientes de un centro comercial',
     },
-    {
-      label: { en: 'Live Demo', es: 'Demo en Vivo'},
-      url: 'https://huggingface.co/spaces/Luismodesto86/Customer_Segmentation',
-      type: 'demo',
+    shortDescription: {
+      en: 'A complete end to end customer segmentation and behavioral insights project',
+      es: 'Un proyecto completo de segmentación de clientes y análisis del comportamiento de principio a fin.',
     },
-    {
-      label: { en: 'Documentation', es: 'Documentación'},
-      url: 'https://huggingface.co/spaces/Luismodesto86/Customer_Segmentation/blob/main/README.md',
-      type: 'documentation',
-    },  
-  ],
-  charts: [
-    {
-      type: 'pie',
-      title: { en: 'Customer Distribution by Gender', es: 'Distribución de clientes por género' },
+    description: {
+      en: 'This project transforms the classic Mall Customers dataset into a fully interactive analytics product. The goal is to demonstrate how even a small dataset can support a complete analytical workflow and a polished, user-friendly dashboard.',
+      es: 'Este proyecto transforma el conjunto de datos clásico «Mall Customers» en un producto analítico totalmente interactivo. El objetivo es demostrar cómo incluso un conjunto de datos pequeño puede respaldar un flujo de trabajo analítico completo y un panel de control pulido y fácil de usar.',
+    },
+    technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Scikit-Learn'],
+    features: {
+      en: [
+        'Overview: Executive summary of customer demographics, spending patterns, and key insights.',
+        'Distribution Analysis: Explore distributions of age, income, spending score, and other key variables.',
+        'Relationship Analysis: Analyze correlations between variables to uncover hidden patterns and customer behaviors.',
+        'Segmentation: Apply clustering algorithms to segment customers into distinct groups based on their characteristics and behaviors.',
+        'Behavioral Insights: Analyze spending patterns, preferences, and behaviors of different customer segments.',
+        'Modeling: Build predictive models to forecast customer behavior, such as spending score or segment membership.'
+      ],
+      es: [
+        'Resumen ejecutivo: resumen ejecutivo de los datos demográficos de los clientes, los patrones de gasto y la información clave.',
+        'Análisis de distribución: explora las distribuciones de edad, ingresos, puntuación de gasto y otras variables clave.',
+        'Análisis de relaciones: analiza las correlaciones entre variables para descubrir patrones ocultos y comportamientos de los clientes.',
+        'Segmentación: aplica algoritmos de agrupamiento para segmentar a los clientes en grupos distintos basados en sus características y comportamientos.',
+        'Insights comportamentales: analiza los patrones de gasto, preferencias y comportamientos de diferentes segmentos de clientes.',
+        'Modelado: construye modelos predictivos para predecir el comportamiento del cliente, como la puntuación de gasto o la membresía en un segmento.'
+      ],
+    },
+    image: '/images/mall.png',
+    gallery: [
+      '/images/mall.png',
+      '/images/dash1.png',
+    ],
+    links: [
+      {
+        label: { en: 'GitHub', es: 'GitHub' },
+        url: 'https://github.com/luis-c2255/mall_customers_segmentation',
+        type: 'github',
+      },
+      {
+        label: { en: 'Live Demo', es: 'Demo en Vivo' },
+        url: 'https://huggingface.co/spaces/Luismodesto86/Customer_Segmentation',
+        type: 'demo',
+      },
+      {
+        label: { en: 'Documentation', es: 'Documentación' },
+        url: 'https://huggingface.co/spaces/Luismodesto86/Customer_Segmentation/blob/main/README.md',
+        type: 'documentation',
+      },
+    ],
+    charts: [
+      {
+        type: 'pie',
+        title: { en: 'Customer Distribution by Gender', es: 'Distribución de clientes por género' },
         data: {
           labels: { en: ['Male', 'Female'], es: ['Hombre', 'Mujer'] },
           datasets: [{
@@ -575,13 +575,13 @@ export const projects: Project[] = [
               'rgba(103, 232, 249, 0.4)'
             ],
           }],
-         },
+        },
       },
       {
-      type: 'line',
-      title: { en: 'Elbow Method (2D: Income + Score)', es: 'Método del codo (2D: Ingreso + Puntuación)' },
+        type: 'line',
+        title: { en: 'Elbow Method (2D: Income + Score)', es: 'Método del codo (2D: Ingreso + Puntuación)' },
         data: {
-          labels: { 
+          labels: {
             en: ['2', '3', '4', '5', '6', '7', '8', '9', '10'],
             es: ['2', '3', '4', '5', '6', '7', '8', '9', '10'],
           },
@@ -613,19 +613,19 @@ export const projects: Project[] = [
               'rgba(215, 250, 254, 0.4)'
             ],
           }],
-         },
+        },
       },
       {
-      type: 'bubble',
-      title: { en: 'Segmentation: Income vs Spending', es: 'Segmentación: Ingreso vs Gasto' },
+        type: 'bubble',
+        title: { en: 'Segmentation: Income vs Spending', es: 'Segmentación: Ingreso vs Gasto' },
         data: {
-          labels: { 
+          labels: {
             en: ['Low income, high score', 'High income, low score', 'High income, high score', 'Low income, low score'],
             es: ['Bajo ingreso, alta puntuación', 'Alto ingreso, baja puntuación', 'Alto ingreso, alta puntuación', 'Bajo ingreso, baja puntuación'],
           },
           datasets: [{
             label: 'Customer Segments',
-            data: [ 
+            data: [
               { x: 46, y: 55, r: 19 },
               { x: 65, y: 50, r: 19 },
               { x: 46, y: 56, r: 19 },
@@ -641,11 +641,11 @@ export const projects: Project[] = [
             ],
             backgroundColor: 'rgba(6, 182, 212, 0.5)',
             borderColor: 'rgba(6, 182, 212, 1)',
-           }],
-         },
+          }],
+        },
       },
-     ],
-     category: 'Data Analysis',
+    ],
+    category: 'Data Analysis',
   },
   {
     id: 'multiple_data_analysis',
@@ -664,23 +664,25 @@ export const projects: Project[] = [
     technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Numpy', 'Streamlit'],
     features: {
       en: [
-      'Sales & Revenue: Time-Series Forecasting, Segmentation, Trend Analysis.', 
-      'Patient Health Records: Classification, Correlation Analysis, Outlier Detection.', 
-      'Stock Market Prices: Time-Series Analysis, Moving Averages, Volatility Modeling.',
-      'Customer Churn: Logistic Regression, Clustering, Feature Importance.',
-      'Climate & Weather: Seasonal Decomposition, Anomaly Detection, Forecasting.',
-      'E-commerce Clickstream: Funnel Analysis, Cohort Analysis, Behavioral Clustering.',
+        'Sales & Revenue: Time-Series Forecasting, Segmentation, Trend Analysis.',
+        'Patient Health Records: Classification, Correlation Analysis, Outlier Detection.',
+        'Stock Market Prices: Time-Series Analysis, Moving Averages, Volatility Modeling.',
+        'Customer Churn: Logistic Regression, Clustering, Feature Importance.',
+        'Climate & Weather: Seasonal Decomposition, Anomaly Detection, Forecasting.',
+        'E-commerce Clickstream: Funnel Analysis, Cohort Analysis, Behavioral Clustering.',
+        'Among others.',
       ],
       es: [
-      'Ventas e ingresos: previsión de series temporales, segmentación, análisis de tendencias.', 
-      'Historiales médicos de pacientes: clasificación, análisis de correlación, detección de valores atípicos.', 
-      'Precios del mercado bursátil: análisis de series temporales, medias móviles, modelos de volatilidad.',
-      'Pérdida de clientes: regresión logística, agrupación, importancia de las características.',
-      'Clima y meteorología: descomposición estacional, detección de anomalías, previsión.',
-      'Comercio electrónico Clickstream: análisis de embudo, análisis de cohortes, agrupación por comportamiento.',
+        'Ventas e ingresos: previsión de series temporales, segmentación, análisis de tendencias.',
+        'Historiales médicos de pacientes: clasificación, análisis de correlación, detección de valores atípicos.',
+        'Precios del mercado bursátil: análisis de series temporales, medias móviles, modelos de volatilidad.',
+        'Pérdida de clientes: regresión logística, agrupación, importancia de las características.',
+        'Clima y meteorología: descomposición estacional, detección de anomalías, previsión.',
+        'Comercio electrónico Clickstream: análisis de embudo, análisis de cohortes, agrupación por comportamiento.',
+        'Entre otros',
       ],
     },
-    image: '/images/img.svg',
+    image: '/images/DASH.svg',
     gallery: [
       '/images/1.svg',
       '/images/2.svg',
@@ -689,166 +691,166 @@ export const projects: Project[] = [
     links: [
       {
         label: { en: 'GitHub', es: 'GitHub' },
-        url: 'https://github.com/luis-c2255/Analytics-1',
+        url: 'https://github.com/luis-c2255/multiple_dashboards',
         type: 'github',
       },
       {
-        label: { en: 'Live Demo', es: 'Demo en Vivo'},
-        url: 'https://analytics-1-trjcz7qln7bv2sskobjeua.streamlit.app/',
+        label: { en: 'Live Demo', es: 'Demo en Vivo' },
+        url: 'https://multipledashboards.streamlit.app/',
         type: 'demo',
       },
       {
-        label: { en: 'Documentation', es: 'Documentación'},
-        url: 'https://github.com/luis-c2255/Analytics-1/blob/main/README.md',
+        label: { en: 'Documentation', es: 'Documentación' },
+        url: 'https://github.com/luis-c2255/multiple_dashboards/blob/main/README.md',
         type: 'documentation',
-      },  
+      },
     ],
     charts: [
       {
         type: 'bar',
         title: { en: 'Revenue by Category', es: 'Ingresos por categoría' },
-          data: {
-            labels: {
-              en: ['Beauty Products', 'Books', 'Clothing', 'Electronics', 'Home Appliances', 'Sports'],
-              es: ['Productos de belleza', 'Libros', 'Ropa', 'Electrónica', 'Electrodomésticos', 'Deportes'],
-            },
-            datasets: [{
-              label: 'Revenue($)',
-              data: [2.622, 1.862, 8.129, 34.982, 18.646, 14.327],
-              backgroundColor: [
+        data: {
+          labels: {
+            en: ['Beauty Products', 'Books', 'Clothing', 'Electronics', 'Home Appliances', 'Sports'],
+            es: ['Productos de belleza', 'Libros', 'Ropa', 'Electrónica', 'Electrodomésticos', 'Deportes'],
+          },
+          datasets: [{
+            label: 'Revenue($)',
+            data: [2.622, 1.862, 8.129, 34.982, 18.646, 14.327],
+            backgroundColor: [
               'rgba(6, 182, 212, 1)',
               'rgba(32, 191, 217, 1)',
               'rgba(41, 193, 219, 1)',
               'rgba(58, 199, 223, 1)',
               'rgba(84, 208, 228, 1)'
-              ],
-              borderColor: [
+            ],
+            borderColor: [
               'rgba(6, 182, 212, 0.4)',
               'rgba(32, 191, 219, 0.4)',
               'rgba(41, 193, 217, 0.4)',
               'rgba(58, 199, 223, 0.4)',
               'rgba(84, 208, 228, 0.4)'
-              ],
-            }],
-          },
+            ],
+          }],
         },
-        {
+      },
+      {
         type: 'doughnut',
         title: { en: 'Regional Distribution', es: 'Distribución Regional' },
-          data: {
-            labels: {
-              en: ['North', 'South', 'East', 'West'],
-              es: ['Norte', 'Sur', 'Este', 'Oeste'],
-            },
-            datasets: [{
-              label: 'Distribución (%)',
-              data: [25, 25.2, 25.2, 24.7],
-              backgroundColor: [
+        data: {
+          labels: {
+            en: ['North', 'South', 'East', 'West'],
+            es: ['Norte', 'Sur', 'Este', 'Oeste'],
+          },
+          datasets: [{
+            label: 'Distribución (%)',
+            data: [25, 25.2, 25.2, 24.7],
+            backgroundColor: [
               'rgba(6, 182, 212, 1)',
               'rgba(26, 143, 163, 1)',
               'rgba(180, 239, 247, 1)',
               'rgba(159, 215, 221, 1)'
-              ],
-              borderColor: [
-                'rgba(6, 182, 212, 0.4)',
-                'rgba(41, 193, 219, 0.4)',
-                'rgba(180, 239, 247, 0.4)',
-              ],
-            }],
-          },
+            ],
+            borderColor: [
+              'rgba(6, 182, 212, 0.4)',
+              'rgba(41, 193, 219, 0.4)',
+              'rgba(180, 239, 247, 0.4)',
+            ],
+          }],
         },
-        {
+      },
+      {
         type: 'line',
         title: { en: 'Average Temperature by Year', es: 'Temperatura media anual' },
-          data: {
-            labels: {
-              en: ['1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014'],
-              es: ['1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014'],
-            },
-            datasets: [{
-              label: 'Temperature (C)',
-              data: [14.55, 14.05, 13.60, 14.65, 14.74, 14.46, 15.02, 13.51, 14.07, 15.11, 14.38, 15.45, 14.52, 14.53, 15.80],
-              backgroundColor: 'rgba(6, 182, 212, 1)',
-              borderColor: 'rgba(6, 182, 212, 0.4)',
-            }],
+        data: {
+          labels: {
+            en: ['1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014'],
+            es: ['1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014'],
           },
+          datasets: [{
+            label: 'Temperature (C)',
+            data: [14.55, 14.05, 13.60, 14.65, 14.74, 14.46, 15.02, 13.51, 14.07, 15.11, 14.38, 15.45, 14.52, 14.53, 15.80],
+            backgroundColor: 'rgba(6, 182, 212, 1)',
+            borderColor: 'rgba(6, 182, 212, 0.4)',
+          }],
         },
-        {
+      },
+      {
         type: 'bar',
         title: { en: 'Churn Rate by Geography', es: 'Tasa de abandono por zona geográfica' },
-          data: {
-            labels: {
-              en: ['France', 'Germany', 'Spain'],
-              es: ['Francia', 'Alemania', 'España'],
-            },
-            datasets: [{
-              label: 'Churn Rate (%)',
-              data: [16.15, 32.44, 16.67],
-              backgroundColor: [
-                'rgba(6, 182, 212, 1)',
-                'rgba(41, 153, 175, 1)',
-                'rgba(180, 239, 247, 1)'
-              ],
-              borderColor: [
-                'rgba(6, 182, 212, 0.4)',
-                'rgba(41, 153, 175, 0.4)',
-                'rgba(180, 239, 247, 0.4)'
-              ],
-            }],
+        data: {
+          labels: {
+            en: ['France', 'Germany', 'Spain'],
+            es: ['Francia', 'Alemania', 'España'],
           },
+          datasets: [{
+            label: 'Churn Rate (%)',
+            data: [16.15, 32.44, 16.67],
+            backgroundColor: [
+              'rgba(6, 182, 212, 1)',
+              'rgba(41, 153, 175, 1)',
+              'rgba(180, 239, 247, 1)'
+            ],
+            borderColor: [
+              'rgba(6, 182, 212, 0.4)',
+              'rgba(41, 153, 175, 0.4)',
+              'rgba(180, 239, 247, 0.4)'
+            ],
+          }],
         },
-      ],
-      category: 'Data Analysis',
-    },
+      },
+    ],
+    category: 'Data Analysis',
+  },
 
 ];
-  // Template for adding new projects
-  // {
-  //   id: 'project-id',
-  //   title: {
-  //     en: 'Project Title',
-  //     es: 'Título del Proyecto',
-  //   },
-  //   shortDescription: {
-  //     en: 'Brief description for gallery view',
-  //     es: 'Breve descripción para vista de galería',
-  //   },
-  //   description: {
-  //     en: 'Detailed project description',
-  //     es: 'Descripción detallada del proyecto',
-  //   },
-  //   technologies: ['Tech1', 'Tech2', 'Tech3'],
-  //   features: {
-  //     en: ['Feature 1', 'Feature 2', 'Feature 3'],
-  //     es: ['Característica 1', 'Característica 2', 'Característica 3'],
-  //   },
-  //   image: 'https://example.com/thumbnail.jpg',
-  //   gallery: [
-  //     'https://example.com/image1.jpg',
-  //     'https://example.com/image2.jpg',
-  //   ],
-  //   links: [
-  //     {
-  //       label: { en: 'GitHub', es: 'GitHub' },
-  //       url: 'https://github.com/username/repo',
-  //       type: 'github',
-  //     },
-  //   ],
-  //   charts: [
-  //     {
-  //       type: 'bar',
-  //       title: { en: 'Chart Title', es: 'Título del Gráfico' },
-  //       data: {
-  //         labels: ['A', 'B', 'C'],
-  //         datasets: [{
-  //           label: 'Dataset',
-  //           data: [10, 20, 30],
-  //           backgroundColor: 'rgba(6, 182, 212, 0.5)',
-  //           borderColor: 'rgba(6, 182, 212, 1)',
-  //         }],
-  //       },
-  //     },
-  //   ],
-  //   category: 'Category Name',
-  // },
+// Template for adding new projects
+// {
+//   id: 'project-id',
+//   title: {
+//     en: 'Project Title',
+//     es: 'Título del Proyecto',
+//   },
+//   shortDescription: {
+//     en: 'Brief description for gallery view',
+//     es: 'Breve descripción para vista de galería',
+//   },
+//   description: {
+//     en: 'Detailed project description',
+//     es: 'Descripción detallada del proyecto',
+//   },
+//   technologies: ['Tech1', 'Tech2', 'Tech3'],
+//   features: {
+//     en: ['Feature 1', 'Feature 2', 'Feature 3'],
+//     es: ['Característica 1', 'Característica 2', 'Característica 3'],
+//   },
+//   image: 'https://example.com/thumbnail.jpg',
+//   gallery: [
+//     'https://example.com/image1.jpg',
+//     'https://example.com/image2.jpg',
+//   ],
+//   links: [
+//     {
+//       label: { en: 'GitHub', es: 'GitHub' },
+//       url: 'https://github.com/username/repo',
+//       type: 'github',
+//     },
+//   ],
+//   charts: [
+//     {
+//       type: 'bar',
+//       title: { en: 'Chart Title', es: 'Título del Gráfico' },
+//       data: {
+//         labels: ['A', 'B', 'C'],
+//         datasets: [{
+//           label: 'Dataset',
+//           data: [10, 20, 30],
+//           backgroundColor: 'rgba(6, 182, 212, 0.5)',
+//           borderColor: 'rgba(6, 182, 212, 1)',
+//         }],
+//       },
+//     },
+//   ],
+//   category: 'Category Name',
+// },
 //];
