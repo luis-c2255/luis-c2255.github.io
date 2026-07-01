@@ -57,37 +57,37 @@ export const projects: Project[] = [
   {
     id: 'ecommerce-analysis',
     title: {
-      en: 'E-Commerce Analytics Dashboard',
-      es: 'Panel de análisis de E-Commerce',
+      en: 'Retail Sector Analysis Dashboard',
+      es: 'Panel de análisis de sector minorista',
     },
     shortDescription: {
-      en: 'Comprehensive analysis of e-commerce data including cohort analysis, churn prediction, market basket analysis, and customer lifetime value modeling.',
-      es: 'Análisis exhaustivo de datos de comercio electrónico incluyendo análisis de cohortes, predicción de abandono, análisis de cesta de mercado y modelado de valor de vida del cliente.',
+      en: 'An interactive dashboard created with Streamlit for analyzing customers and sales in the retail sector.',
+      es: 'Un panel de control interactivo creado con Streamlit para el análisis de clientes y ventas en el sector minorista.',
     },
     description: {
-      en: 'This project demonstrates advanced data analytics techniques applied to an e-commerce dataset. The analysis provides actionable insights for business growth, customer retention strategies, and revenue optimization.',
-      es: 'Este proyecto demuestra técnicas avanzadas de análisis de datos aplicadas a un conjunto de datos de comercio electrónico. El análisis proporciona insights accionables para el crecimiento empresarial, estrategias de retención de clientes y optimización de ingresos.',
+      en: 'This project showcases advanced techniques such as RFM segmentation, sales performance, and geographic breakdowns—designed to provide an at-a-glance view of customer value and business trends.',
+      es: 'Este proyecto demuestra técnicas avanzadas como segmentación RFM, rendimiento de ventas y desgloses geográficos— diseñado para explorar el valor de los clientes y las tendencias comerciales de un solo vistazo.',
     },
-    technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'Scipy'],
+    technologies: ['Python', 'Pandas', 'NumPy', 'Plotly'],
     features: {
       en: [
-        'Cohort Analysis: Tracked user behavior patterns across different customer cohorts to identify retention trends',
-        'Churn Analysis: Built predictive models to identify at-risk customers and reduce churn rate',
-        'Market Basket Analysis: Discovered product associations and cross-selling opportunities using association rules',
-        'Customer Lifetime Value (CLV): Calculated and segmented customers based on their predicted lifetime value',
+        'Global KPIs: revenue, profit, margin, number of orders, average order value, and active customers - all of which can be filtered.',
+        'RFM customer segmentation: automatic scoring (recency, frequency, monetary value) that classifies customers into VIP, at-risk, new, inactive, and regular segments, with a searchable customer explorer by segment where you can search and download data.',
+        'Sales and Product Performance: monthly revenue and profit trends, a tree map color-coded by profit per category and subcategory, and a ranking of the top 10 best-selling products.',
+        'Geographic View: a choropleth map of the U.S. and the 10 states with the highest revenue, with automatic normalization of city names (e.g. Chicago, Houston) by state.',
       ],
       es: [
-        'Análisis de Cohortes: Seguimiento de los patrones de comportamiento de los usuarios en diferentes cohortes de clientes para identificar tendencias de retención.',
-        'Análisis de la tasa de abandono: Creación de modelos predictivos para identificar a los clientes en riesgo y reducir la tasa de abandono.',
-        'Análisis de la cesta de la compra: Descubrimiento de asociaciones de productos y oportunidades de venta cruzada mediante reglas de asociación.',
-        'Valor del ciclo de vida del cliente (CLV): Cálculo y segmentación de los clientes en función de su valor del ciclo de vida previsto.',
+        'KPI globales: ingresos, beneficios, margen, número de pedidos, valor medio por pedido y clientes activos, todos ellos adaptables a los filtros.',
+        'Segmentación de clientes RFM: puntuación automática (reciencia, frecuencia, valor monetario) que clasifica a los clientes en segmentos VIP, en riesgo, nuevos, inactivos y habituales, con un explorador de clientes por segmento en el que se pueden realizar búsquedas y descargar datos.',
+        'Rendimiento de ventas y productos: tendencia mensual de ingresos y beneficios, un mapa de árbol con colores según los beneficios por categoría y subcategoría, y una clasificación de los 10 productos más vendidos.',
+        'Vista geográfica: un mapa coroplético de EE. UU. y los 10 estados con mayores ingresos, con normalización automática de los nombres de las ciudades (p. ej., Chicago, Houston) según su estado.',
       ],
     },
-    image: '/images/ecomm.svg',
+    image: '/images/11.png',
     gallery: [
-      '/images/ecomm.svg',
-      '/images/modules.svg',
-      '/images/kpis.jpg',
+      '/images/12.png',
+      '/images/13.png',
+      '/images/14.png',
     ],
     links: [
       {
@@ -95,7 +95,7 @@ export const projects: Project[] = [
           en: 'View on GitHub',
           es: 'Ver en GitHub',
         },
-        url: 'https://github.com/luis-c2255/E_Commerce_Retail/tree/main',
+        url: 'https://github.com/luis-c2255/new_customers/tree/main',
         type: 'github',
       },
       {
@@ -103,7 +103,7 @@ export const projects: Project[] = [
           en: 'Live Demo',
           es: 'Demo en Vivo',
         },
-        url: 'https://huggingface.co/spaces/Luismodesto86/E_Commerce_Dashboard',
+        url: 'https://newcustomers.streamlit.app/',
         type: 'demo',
       },
       {
@@ -111,28 +111,40 @@ export const projects: Project[] = [
           en: 'Documentation',
           es: 'Documentación',
         },
-        url: 'https://github.com/luis-c2255/E_Commerce_Retail/blob/main/README.md',
+        url: 'https://github.com/luis-c2255/new_customers/blob/main/README.md',
         type: 'documentation',
       },
     ],
     charts: [
       {
-        type: 'line',
+        type: 'bar',
         title: {
-          en: 'Monthly Revenue Trend',
-          es: 'Tendencia mensual de ingresos',
+          en: 'Distribution of Customer Value',
+          es: 'Distribucion del Valor de Clientes',
         },
         data: {
           labels: {
-            en: ['Jan 2011', 'Mar 2011', 'May 2011', 'Jul 2011', 'Sep 2011', 'Nov 2011'],
-            es: ['Ene 2011', 'Mar 2011', 'May 2011', 'Jul 2011', 'Sep 2011', 'Nov 2011'],
+            en: ['Sleeping Customers', 'VIP Customers', 'New Customers', 'Regular Customers', 'At Risk of Churn'],
+            es: ['Clientes Dormidos', 'Campeones (VIP)', 'Nuevos Clientes', 'Clientes Regulares', 'En Riesgo de Abandono'],
           },
           datasets: [
             {
-              label: 'Revenue (£M)',
-              data: [581.039, 599.853, 677.279, 594.012, 943.298, 1.145545],
-              backgroundColor: 'rgba(6, 182, 212, 0.5)',
-              borderColor: 'rgba(6, 182, 212, 1)',
+              label: 'Customers',
+              data: [1397, 947, 743, 717, 476],
+              backgroundColor: [
+                'rgba(6, 182, 212, 0.8)',
+                'rgba(6, 169, 198, 0.4)',
+                'rgba(6, 135, 157, 0.6)',
+                'rgba(6, 182, 212, 0.8)',
+                'rgba(34, 211, 238, 0.8)',
+              ],
+              borderColor: [
+                'rgba(6, 182, 212, 0.8)',
+                'rgba(34, 211, 238, 0.2)',
+                'rgba(103, 232, 249, 1)',
+                'rgba(165, 243, 252, 1)',
+                'rgba(215, 250, 254, 1)'
+              ]
             },
           ],
         },
@@ -140,34 +152,24 @@ export const projects: Project[] = [
       {
         type: 'pie',
         title: {
-          en: 'Customer Segmentation Distribution',
-          es: 'Distribución de la segmentación de clientes',
+          en: 'Customer Gender Distribution',
+          es: 'Distribución de clientes por genero',
         },
         data: {
           labels: {
-            en: ['Champions', 'New Customers', 'Lost', 'Loyal Customers', 'Promising', 'Potential Loyalists', 'At Risk', 'Hibernating'],
-            es: ['Campeones', 'Nuevos Clientes', 'Perdidos', 'Clientes Leales', 'Prometedores', 'Potenciales Leales', 'En Riesgo', 'Hibernando'],
+            en: ['Female', 'Male', 'Other'],
+            es: ['Masculino', 'Femenino', 'Otro'],
           },
           datasets: [
             {
-              label: 'Segment %',
-              data: [22.1, 21, 16.2, 11.8, 9.6, 7.2, 6.3, 5.8],
+              label: 'Genero',
+              data: [1432, 2533, 315],
               backgroundColor: [
                 'rgba(6, 182, 212, 0.1)',
                 'rgba(6, 169, 198, 0.4)',
-                'rgba(6, 135, 157, 0.6)',
-                'rgba(6, 182, 212, 0.8)',
-                'rgba(34, 211, 238, 0.2)',
-                'rgba(103, 232, 249, 0.8)',
-                'rgba(165, 243, 252, 0.8)',
-                'rgba(215, 250, 254, 0.8)'
+                'rgba(6, 135, 157, 0.6)'
               ],
               borderColor: [
-                'rgba(6, 182, 212, 0.1)',
-                'rgba(6, 169, 198, 0.4)',
-                'rgba(6, 135, 157, 0.6)',
-                'rgba(6, 182, 212, 0.8)',
-                'rgba(34, 211, 238, 0.2)',
                 'rgba(103, 232, 249, 1)',
                 'rgba(165, 243, 252, 1)',
                 'rgba(215, 250, 254, 1)'
@@ -177,39 +179,25 @@ export const projects: Project[] = [
         },
       },
       {
-        type: 'bar',
+        type: 'line',
         title: {
-          en: 'Average Revenue',
-          es: 'CLV medio por segmento',
+          en: 'Historical Sales Trends',
+          es: 'Evolucion Historica de Ventas',
         },
         data: {
           labels: {
-            en: ['Champions', 'New Customers', 'Lost', 'Loyal Customers', 'Promising', 'Potential Loyalists', 'At Risk', 'Hibernating'],
-            es: ['Campeones', 'Nuevos Clientes', 'Perdidos', 'Clientes Leales', 'Prometedores', 'Potenciales Leales', 'En Riesgo', 'Hibernando'],
+            en: ['Jan 2022', 'Apr 2022', 'Jul 2022', 'Oct 2022', 'Jan 2023', 'Apr 2023', 'Jul 2023', 'Oct 2023', 'Jan 2024'],
+            es: ['Ene 2022', 'Abr 2022', 'Jul 2022', 'Oct 2022', 'Ene 2023', 'Abr 2023', 'Jul 2023', 'Oct 2023', 'Ene 2024'],
           },
           datasets: [
             {
-              label: 'Average CLV (£)',
-              data: [254.644, 107.722, 96.787, 34.099, 11.172, 10.322, 8.559, 4.125],
+              label: 'USD',
+              data: [23.4698, 21.598, 22.1181, 20.0101, 12.8421, 22.1513, 17.4998, 20.5180],
               backgroundColor: [
-                'rgba(6, 182, 212, 0.8)',
-                'rgba(6, 169, 198, 0.4)',
-                'rgba(6, 135, 157, 0.6)',
-                'rgba(6, 182, 212, 0.8)',
-                'rgba(34, 211, 238, 0.8)',
-                'rgba(103, 232, 249, 0.8)',
-                'rgba(165, 243, 252, 0.8)',
-                'rgba(215, 250, 254, 0.8)'
+                'rgba(6, 182, 212, 0.8)'
               ],
               borderColor: [
-                'rgba(6, 182, 212, 0.8)',
-                'rgba(6, 169, 198, 0.4)',
-                'rgba(6, 135, 157, 0.6)',
-                'rgba(6, 182, 212, 0.8)',
-                'rgba(34, 211, 238, 0.8)',
-                'rgba(103, 232, 249, 1)',
-                'rgba(165, 243, 252, 1)',
-                'rgba(215, 250, 254, 1)'
+                'rgba(6, 169, 198, 0.4)'
               ],
             },
           ],
