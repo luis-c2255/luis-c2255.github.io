@@ -83,7 +83,7 @@ export const projects: Project[] = [
         'Vista geográfica: un mapa coroplético de EE. UU. y los 10 estados con mayores ingresos, con normalización automática de los nombres de las ciudades (p. ej., Chicago, Houston) según su estado.',
       ],
     },
-    image: '/images/11.png',
+    image: '/images/dash.svg',
     gallery: [
       '/images/12.png',
       '/images/13.png',
@@ -210,142 +210,124 @@ export const projects: Project[] = [
   {
     id: 'customer_segmentation',
     title: {
-      en: 'Mall Customers Analytics Dashboard',
-      es: 'Análisis de clientes de un centro comercial',
+      en: 'Demand, Inventory, and Pricing Management Dashboard',
+      es: 'Análisis de gestión de la demanda, inventario y los precios',
     },
     shortDescription: {
-      en: 'A complete end to end customer segmentation and behavioral insights project',
-      es: 'Un proyecto completo de segmentación de clientes y análisis del comportamiento de principio a fin.',
+      en: 'Demand forecasting, inventory optimization, and dynamic pricing strategy for a multi-store retail chain.',
+      es: 'Pronostico de demanda, optimizacion de inventario y estrategia de precios dinamicos para una cadena minorista multi-tienda.',
     },
     description: {
-      en: 'This project transforms the classic Mall Customers dataset into a fully interactive analytics product. The goal is to demonstrate how even a small dataset can support a complete analytical workflow and a polished, user-friendly dashboard.',
-      es: 'Este proyecto transforma el conjunto de datos clásico «Mall Customers» en un producto analítico totalmente interactivo. El objetivo es demostrar cómo incluso un conjunto de datos pequeño puede respaldar un flujo de trabajo analítico completo y un panel de control pulido y fácil de usar.',
+      en: 'A Streamlit dashboard covering three use cases related to retail analytics: demand forecasting using time series analysis, inventory optimization, and dynamic pricing, based on daily sales and inventory data at the store and product levels.',
+      es: 'Un panel de Streamlit que abarca tres casos de uso relacionados con el análisis del sector minorista: previsión de la demanda mediante series temporales, optimización de existencias y fijación dinámica de precios, basado en datos diarios de ventas y existencias a nivel de tienda y de producto.',
     },
-    technologies: ['Python', 'Plotly', 'Pandas', 'Matplotlib', 'Scikit-Learn'],
+    technologies: ['Python', 'Plotly', 'Pandas', 'Statsmodel'],
     features: {
       en: [
-        'Overview: Executive summary of customer demographics, spending patterns, and key insights.',
-        'Distribution Analysis: Explore distributions of age, income, spending score, and other key variables.',
-        'Relationship Analysis: Analyze correlations between variables to uncover hidden patterns and customer behaviors.',
-        'Segmentation: Apply clustering algorithms to segment customers into distinct groups based on their characteristics and behaviors.',
-        'Behavioral Insights: Analyze spending patterns, preferences, and behaviors of different customer segments.',
-        'Modeling: Build predictive models to forecast customer behavior, such as spending score or segment membership.'
+        'Demand Forecasting: An independent Holt-Winters exponential smoothing model, trained solely on actual historical data (not on the “reported forecasts” column), with a backtest covering the last 30 days and a configurable forward forecast (7 to 60 days) with an approximate confidence interval.',
+        'Inventory Optimization: Inventory turnover by category and a detailed graph showing inventory levels over time compared to reorder point and safety stock lines.',
+        'Dynamic Pricing: A log-log regression of price elasticity of demand (taking into account discounts and holidays/promotions), including the coefficient, the p-value, R², and an interpretation in plain language.',
       ],
       es: [
-        'Resumen ejecutivo: resumen ejecutivo de los datos demográficos de los clientes, los patrones de gasto y la información clave.',
-        'Análisis de distribución: explora las distribuciones de edad, ingresos, puntuación de gasto y otras variables clave.',
-        'Análisis de relaciones: analiza las correlaciones entre variables para descubrir patrones ocultos y comportamientos de los clientes.',
-        'Segmentación: aplica algoritmos de agrupamiento para segmentar a los clientes en grupos distintos basados en sus características y comportamientos.',
-        'Insights comportamentales: analiza los patrones de gasto, preferencias y comportamientos de diferentes segmentos de clientes.',
-        'Modelado: construye modelos predictivos para predecir el comportamiento del cliente, como la puntuación de gasto o la membresía en un segmento.'
+        'Previsión de la demanda: Un modelo de suavizado exponencial de Holt-Winters independiente, entrenado únicamente con datos históricos reales (no con la columna de previsiones declaradas), con una prueba retrospectiva de los últimos 30 días y una previsión prospectiva configurable (de 7 a 60 días) con un intervalo de confianza aproximado.',
+        'Optimización de inventario: Rotación de inventario por categoría y un gráfico detallado que muestra el nivel de inventario a lo largo del tiempo en comparación con las líneas del punto de reposición y el stock de seguridad.',
+        'Fijación dinámica de precios: Una regresión log-log de la elasticidad de la demanda respecto al precio (teniendo en cuenta los descuentos y las fiestas/promociones), con el coeficiente, el valor p, el R² y una interpretación en lenguaje sencillo.',
       ],
     },
-    image: '/images/mall.png',
+    image: '/images/inventory.svg',
     gallery: [
-      '/images/mall.png',
-      '/images/dash1.png',
+      '/images/inve.svg',
+      '/images/model.svg',
+      '/images/precio.svg',
     ],
     links: [
       {
         label: { en: 'GitHub', es: 'GitHub' },
-        url: 'https://github.com/luis-c2255/mall_customers_segmentation',
+        url: 'https://github.com/luis-c2255/Demand-inventory',
         type: 'github',
       },
       {
         label: { en: 'Live Demo', es: 'Demo en Vivo' },
-        url: 'https://huggingface.co/spaces/Luismodesto86/Customer_Segmentation',
+        url: 'https://demand-inventory-pricing.streamlit.app/',
         type: 'demo',
       },
       {
         label: { en: 'Documentation', es: 'Documentación' },
-        url: 'https://huggingface.co/spaces/Luismodesto86/Customer_Segmentation/blob/main/README.md',
+        url: 'https://github.com/luis-c2255/Demand-inventory/blob/main/README.md',
         type: 'documentation',
       },
     ],
     charts: [
       {
-        type: 'pie',
-        title: { en: 'Customer Distribution by Gender', es: 'Distribución de clientes por género' },
+        type: 'doughnut',
+        title: { en: 'Distribution of Inventory Statuses', es: 'Distribución de Estados de Inventario' },
         data: {
-          labels: { en: ['Male', 'Female'], es: ['Hombre', 'Mujer'] },
+          labels: { en: ['Stockout Risk', 'Optimal', 'Reorder Soon', 'Overstock'], es: ['Riesgo de agotamiento de existencias', 'Óptimo', 'Reponer pronto', 'Exceso de existencias'] },
           datasets: [{
-            label: 'Number of Customers',
-            data: [88, 112],
+            label: 'States',
+            data: [34, 31, 28, 7],
             backgroundColor: [
-              'rgba(6, 182, 212, 1)',
-              'rgba(103, 232, 249, 1)'
+              'rgba(6, 169, 198, 0.4)',
+              'rgba(6, 135, 157, 0.6)',
+              'rgba(6, 182, 212, 0.8)',
+              'rgba(34, 211, 238, 0.8)',
             ],
             borderColor: [
-              'rgba(6, 182, 212, 0.4)',
-              'rgba(103, 232, 249, 0.4)'
+              'rgba(34, 211, 238, 1)',
+              'rgba(103, 232, 249, 1)',
+              'rgba(165, 243, 252, 1)',
+              'rgba(215, 250, 254, 1)',
             ],
           }],
         },
       },
       {
         type: 'line',
-        title: { en: 'Elbow Method (2D: Income + Score)', es: 'Método del codo (2D: Ingreso + Puntuación)' },
+        title: { en: 'Statistical Model: Exponential Smoothing (Holt-Winters)', es: 'Modelo Estadistico: Suavizado Exponencial (Holt-Winters)' },
         data: {
           labels: {
-            en: ['2', '3', '4', '5', '6', '7', '8', '9', '10'],
-            es: ['2', '3', '4', '5', '6', '7', '8', '9', '10'],
+            en: ['Oct 8', 'Oct 22', 'Nov 5', 'Nov 19', 'Dec 3', 'Dec 17', 'Dec 31'],
+            es: ['Oct 8', 'Oct 22', 'Nov 5', 'Nov 19', 'Dic 3', 'Dic 17', 'Dic 31'],
           },
           datasets: [{
-            label: 'Inertia',
-            data: [273.66, 157.70, 109.22, 65.56, 60.13, 49.66, 37.31, 32.49, 30.05],
+            label: 'Unidades',
+            data: [24, 152, 109.22, 21, 105, 122, 55, 26],
             backgroundColor: [
-              'rgba(6, 182, 212, 1)',
-              'rgba(41, 193, 219, 1)',
-              'rgba(32, 191, 217, 1)',
-              'rgba(58, 199, 223, 1)',
-              'rgba(84, 208, 228, 1)',
-              'rgba(76, 205, 226, 1)',
-              'rgba(111, 216, 233, 1)',
-              'rgba(145, 227, 240, 1)',
-              'rgba(180, 239, 247, 1)',
-              'rgba(215, 250, 254, 1)'
+              'rgba(6, 182, 212, 1)'
             ],
             borderColor: [
-              'rgba(6, 182, 212, 0.4)',
-              'rgba(41, 193, 219, 0.4)',
-              'rgba(32, 191, 217, 0.4)',
-              'rgba(58, 199, 223, 0.4)',
-              'rgba(84, 208, 228, 0.4)',
-              'rgba(76, 205, 226, 0.4)',
-              'rgba(111, 216, 233, 0.4)',
-              'rgba(145, 227, 240, 0.4)',
-              'rgba(180, 239, 247, 0.4)',
-              'rgba(215, 250, 254, 0.4)'
+              'rgba(180, 239, 247, 0.4)'
             ],
           }],
         },
       },
       {
-        type: 'bubble',
-        title: { en: 'Segmentation: Income vs Spending', es: 'Segmentación: Ingreso vs Gasto' },
+        type: 'bar',
+        title: { en: 'Inventory Turnover by Category', es: 'Rotacion de Inventario por Categoria' },
         data: {
           labels: {
-            en: ['Low income, high score', 'High income, low score', 'High income, high score', 'Low income, low score'],
-            es: ['Bajo ingreso, alta puntuación', 'Alto ingreso, baja puntuación', 'Alto ingreso, alta puntuación', 'Bajo ingreso, baja puntuación'],
+            en: ['Furniture', 'Clothing', 'Toys', 'Groceries', 'Electronics'],
+            es: ['Muebles', 'Ropa', 'Juguetes', 'Productos alimenticios', 'Electrónica'],
           },
           datasets: [{
-            label: 'Customer Segments',
+            label: 'Unidades vendidas',
             data: [
-              { x: 46, y: 55, r: 19 },
-              { x: 65, y: 50, r: 19 },
-              { x: 46, y: 56, r: 19 },
-              { x: 50, y: 56, r: 2 },
-              { x: 18, y: 6, r: 15 },
-              { x: 38, y: 35, r: 20 },
-              { x: 70, y: 97, r: 30 },
-              { x: 90, y: 91, r: 20 },
-              { x: 19, y: 81, r: 21 },
-              { x: 25, y: 73, r: 31 },
-              { x: 70, y: 18, r: 5 },
-              { x: 78, y: 22, r: 34 },
+              7.341, 7.280, 7.273, 7.254, 7.193 
             ],
-            backgroundColor: 'rgba(6, 182, 212, 0.5)',
-            borderColor: 'rgba(6, 182, 212, 1)',
+            backgroundColor: [
+              'rgba(6, 182, 212, 0.4)',
+              'rgba(6, 169, 198, 0.4)',
+              'rgba(6, 135, 157, 0.4)',
+              'rgba(6, 182, 212, 0.4)',
+              'rgba(34, 211, 238, 0.4)'
+            ],
+            borderColor: [
+              'rgba(6, 182, 212, 1)',
+              'rgba(34, 211, 238, 1)',
+              'rgba(103, 232, 249, 1)',
+              'rgba(165, 243, 252, 1)',
+              'rgba(215, 250, 254, 1)'
+            ],
           }],
         },
       },

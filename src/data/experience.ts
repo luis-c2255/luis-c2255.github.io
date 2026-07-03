@@ -1,6 +1,6 @@
 export const experience = [
   {
-    year: "2022 – Present",
+    year: "2022 – 2026",
     company: "H&M Group, Barcelona",
     role: {
       en: "Customer Service & Back Office Agent",
