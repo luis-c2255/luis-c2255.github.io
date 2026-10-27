@@ -334,6 +334,84 @@ export const projects: Project[] = [
     ],
     category: 'Data Analysis',
   },
+
+  {
+    id: 'research_project',
+    title: {
+      en: 'The Missing Names: An independent, non-commercial history project.',
+      es: 'Los Nombres Perdidos: Un proyecto de historia independiente y sin fines de lucro.',
+    },
+    shortDescription: {
+      en: "Who decides what to deserves to be remembered?",
+      es: "¿Quién decide qué merece ser recordado?",
+    },
+    description: {
+      en: "An open history of talent, power and credit. Each story traces a person's or group's contribution, the barriers they faced, who received the credit, and how the historical record changed over time.",
+      es: "Una historia abierta de talento, poder y crédito. Cada historia rastrea la contribución de una persona o grupo, las barreras que enfrentaron, quién recibió el crédito y cómo cambió el registro histórico con el tiempo.",
+    },
+    technologies: ['Astro', 'TypeScript', 'Claude', 'Vercel'],
+    features: {
+      en: [
+        'Stories: The collection grows one person at a time. Each story is researched in full before it is published.',
+        'Themes: Filter the collection by how recognition was lost or uneven and by the mechanisms behind it.',
+        'Timeline: Lives, works, and changes of reputation in one chronology, each entry linked to its sources.',
+        'Method: How people are chosen, how claims are checked, and why every source is free to read.',
+      ],
+      es: [
+        'Historias: La colección crece una persona a la vez. Cada historia se investiga por completo antes de publicarse.',
+        'Temas: Filtra la colección por cómo se perdió o fue desigual el reconocimiento y por los mecanismos detrás de ello.',
+        'Cronología: Vidas, obras y cambios de reputación en una cronología, cada entrada vinculada a sus fuentes.',
+        'Método: Cómo se eligen las personas, cómo se verifican las afirmaciones y por qué cada fuente es gratuita para leer.',
+      ],
+    },
+    image: '/images/missing-names.svg',
+    gallery: [
+      '/images/missing-names-1.png',
+      '/images/missing-names-2.png',
+      '/images/missing-names-3.png',
+    ],
+    links: [
+      {
+        label: {en: 'GitHub', es: 'GitHub'},
+        url: 'https://github.com/luis-c2255/missing-names/tree/main',
+        type: 'github',
+      },
+      {
+        label: {en: 'Live Demo', es: 'Demo en Vivo'},
+        url: 'https://missing-names-flame.vercel.app//',
+        type: 'demo',
+      },
+      {
+        label: {en: 'Documentation', es: 'Documentación'},
+        url: 'https://github.com/luis-c2255/missing-names/blob/main/README.md',
+        type: 'documentation',
+      },
+    ],
+    charts: [
+      {
+        type: 'bar',
+        title: {en: 'Stories by Theme', es: 'Historias por Tema'},
+        data: {
+          labels: { en: ['Recognition Lost', 'Uneven Recognition', 'Mechanisms Behind It'], es: ['Reconocimiento Perdido', 'Reconocimiento Desigual', 'Mecanismos Detrás de Ello'] },
+          datasets: [{
+            label: 'Stories',
+            data: [120, 80, 50],
+            backgroundColor: [
+              'rgba(6, 182, 212, 0.8)',
+              'rgba(6, 169, 198, 0.6)',
+              'rgba(6, 135, 157, 0.4)',
+          ],
+          borderColor: [
+            'rgba(6, 182, 212, 1)',
+            'rgba(6, 169, 198, 1)',
+            'rgba(6, 135, 157, 1)',
+          ],
+        }],
+      },
+  },
+],
+category: 'Research',
+  },
 ];
 // Template for adding new projects
 // {
