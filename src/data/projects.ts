@@ -346,8 +346,8 @@ export const projects: Project[] = [
       es: "¿Quién decide qué merece ser recordado?",
     },
     description: {
-      en: "An open history of talent, power and credit. Each story traces a person's or group's contribution, the barriers they faced, who received the credit, and how the historical record changed over time.",
-      es: "Una historia abierta de talento, poder y crédito. Cada historia rastrea la contribución de una persona o grupo, las barreras que enfrentaron, quién recibió el crédito y cómo cambió el registro histórico con el tiempo.",
+      en: "This project idea came to me while watching a documentary about great discoveries. I noticed that at least three times, the actual inventor or discoverer did not receive the credit they deserved. Intrigued by this pattern, I decided to investigate further, and this research is the result. Please note that the sample of individuals included in this study was intentionally selected to be as diverse as possible, encompassing different genders, races, and continents of origin.",
+      es: "Esta idea de proyecto surgió mientras veía un documental sobre grandes descubrimientos. Me di cuenta de que al menos tres veces, el inventor o descubridor real no recibió el crédito que merecía. Intrigado por este patrón, decidí investigar más a fondo, y esta investigación es el resultado. Tenga en cuenta que la muestra de individuos incluidos en este estudio fue seleccionada intencionalmente para ser lo más diversa posible, abarcando diferentes géneros, razas y continentes de origen.",
     },
     technologies: ['Astro', 'TypeScript', 'Claude', 'Vercel'],
     features: {
@@ -356,12 +356,14 @@ export const projects: Project[] = [
         'Themes: Filter the collection by how recognition was lost or uneven and by the mechanisms behind it.',
         'Timeline: Lives, works, and changes of reputation in one chronology, each entry linked to its sources.',
         'Method: How people are chosen, how claims are checked, and why every source is free to read.',
+        'Patterns: What can forty lives tells us about recognition, power and historical memory?',
       ],
       es: [
         'Historias: La colección crece una persona a la vez. Cada historia se investiga por completo antes de publicarse.',
         'Temas: Filtra la colección por cómo se perdió o fue desigual el reconocimiento y por los mecanismos detrás de ello.',
         'Cronología: Vidas, obras y cambios de reputación en una cronología, cada entrada vinculada a sus fuentes.',
         'Método: Cómo se eligen las personas, cómo se verifican las afirmaciones y por qué cada fuente es gratuita para leer.',
+        'Patrones: ¿Qué nos dicen cuarenta vidas sobre el reconocimiento, el poder y la memoria histórica?',
       ],
     },
     image: '/images/missing-names.png',
