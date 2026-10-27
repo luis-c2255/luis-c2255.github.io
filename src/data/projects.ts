@@ -369,6 +369,8 @@ export const projects: Project[] = [
       '/images/missing-names-1.png',
       '/images/missing-names-2.png',
       '/images/missing-names-3.png',
+      '/images/missing-names-4.png',
+      '/images/missing-names-5.png',
     ],
     links: [
       {
@@ -389,26 +391,82 @@ export const projects: Project[] = [
     ],
     charts: [
       {
-        type: 'bar',
-        title: {en: 'Stories by Theme', es: 'Historias por Tema'},
+        type: 'pie',
+        title: {en: 'Gender Distribution', es: 'Distribución por Género'},
         data: {
-          labels: { en: ['Recognition Lost', 'Uneven Recognition', 'Mechanisms Behind It'], es: ['Reconocimiento Perdido', 'Reconocimiento Desigual', 'Mecanismos Detrás de Ello'] },
+          labels: { en: ['Women', 'Men'], es: ['Mujeres', 'Hombres'] },
           datasets: [{
-            label: 'Stories',
-            data: [120, 80, 50],
+            label: 'Count',
+            data: [30, 10],
             backgroundColor: [
               'rgba(6, 182, 212, 0.8)',
               'rgba(6, 169, 198, 0.6)',
-              'rgba(6, 135, 157, 0.4)',
           ],
           borderColor: [
             'rgba(6, 182, 212, 1)',
             'rgba(6, 169, 198, 1)',
-            'rgba(6, 135, 157, 1)',
           ],
         }],
       },
   },
+  {
+        type: 'bar',
+        title: { en: 'Region of career', es: 'Región de la carrera' },
+        data: {
+          labels: {
+            en: ['North America', 'Europe', 'Asia', 'Africa', 'Middle East', 'Latin America', 'Oceania'],
+            es: ['América del Norte', 'Europa', 'Asia', 'África', 'Medio Oriente', 'América Latina', 'Oceanía'],
+          },
+          datasets: [{
+            label: 'Count',
+            data: [
+              16, 8, 5, 4, 3, 2, 2 
+            ],
+            backgroundColor: [
+              'rgba(6, 182, 212, 0.4)',
+              'rgba(6, 169, 198, 0.4)',
+              'rgba(6, 135, 157, 0.4)',
+              'rgba(6, 182, 212, 0.4)',
+              'rgba(34, 211, 238, 0.4)',
+              'rgba(103, 232, 249, 0.4)',
+              'rgba(165, 243, 252, 0.4)'
+            ],
+            borderColor: [
+              'rgba(6, 182, 212, 1)',
+              'rgba(34, 211, 238, 1)',
+              'rgba(103, 232, 249, 1)',
+              'rgba(165, 243, 252, 1)',
+              'rgba(215, 250, 254, 1)',
+              'rgba(6, 135, 157, 1)',
+              'rgba(6, 169, 198, 1)'
+            ],
+          }],
+        },
+      },
+      {
+        type: 'line',
+        title: { en: 'Period of the work in the story', es: 'Período del trabajo en la historia' },
+        data: {
+          labels: {
+            en: ['before 1500', '1500 to 1699', '1700 to 1799', '1800 to 1899', '1900 to 1945', '1946 to present'],
+            es: ['Antes de 1500', '1500 a 1699', '1700 a 1799', '1800 a 1899', '1900 a 1945', '1946 a la actualidad'],
+          },
+          datasets: [{
+            label: 'Era',
+            data: [
+              1, 1, 2, 11, 13, 12 
+            ],
+            backgroundColor: [
+              'rgba(6, 182, 212, 0.4)',
+              'rgba(6, 169, 198, 0.4)'
+            ],
+            borderColor: [
+              'rgba(6, 182, 212, 1)',
+              'rgba(34, 211, 238, 1)'
+            ],
+          }],
+        },
+      },
 ],
 category: 'Research',
   },
