@@ -364,7 +364,7 @@ export const projects: Project[] = [
         'Método: Cómo se eligen las personas, cómo se verifican las afirmaciones y por qué cada fuente es gratuita para leer.',
       ],
     },
-    image: '/images/missing-names.svg',
+    image: '/images/missing-names.png',
     gallery: [
       '/images/missing-names-1.png',
       '/images/missing-names-2.png',
