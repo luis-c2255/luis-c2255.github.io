@@ -18,7 +18,7 @@ export const experience = [
         "Presté asistencia al cliente a través de múltiples canales en redes sociales (Facebook, Instagram, X), gestionando consultas de miembros, incidencias con pedidos y escalados a gran escala.",
         "Desempeñé funciones como especialista en sistemas utilizando herramientas SAP y CRM para garantizar la trazabilidad de los pedidos, la exactitud de los perfiles de usuario y la integridad de los datos a lo largo de todo el recorrido del cliente.",
         "Procesé y realicé el seguimiento de incidencias técnicas a través de ServiceNow, actuando como centro de coordinación entre los departamentos de TI, logística, almacén y la red de tiendas.",
-        "Diseñé e implementé metodologías de gestión de la carga de trabajo para priorizar las tareas críticas, mejorando la eficiencia operativa del equipo y los tiempos de respuesta.",
+        "Diseñé  e implementé metodologías de gestión de la carga de trabajo para priorizar las tareas críticas, mejorando la eficiencia operativa del equipo y los tiempos de respuesta.",
         "Desarrollé guías de usuario internas y documentación de formación para estandarizar la resolución de incidencias e incorporar a los nuevos miembros del equipo al uso de las herramientas internas.",
       ],
     },

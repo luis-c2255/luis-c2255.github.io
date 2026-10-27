@@ -110,4 +110,14 @@ export const certifications: Certification[] = [
     credentialUrl: 'https://github.com/luis-c2255/luis-c2255.github.io/blob/main/public/images/tableau.pdf',
     thumbnail: '/images/tableau.png',
   },
+    {
+    title: {
+      en: 'Google AI Professional Certificate',
+      es: 'Certificado profesional de IA de Google',
+    },
+    issuer: 'Coursera',
+    date: '2026',
+    credentialUrl: 'https://www.coursera.org/account/accomplishments/specialization/certificate/WCJTMNCGKZ35',
+    thumbnail: '/images/ai.png',
+  },
 ];
